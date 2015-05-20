@@ -432,10 +432,13 @@ font-weight: bold;
 {
     font-family: 'Scada-Regular';
     font-size: 23px;
-    text-align: center;
-    padding: 0 77px;
+    text-align: left;
+    /*padding: 0 77px;*/
     margin-bottom: 15px;
 }
+.slide-2  .slogan p{margin-bottom: 0}
+.slide-2  .slogan p+p{text-indent: 1.5em; margin-top: 0}
+
 .sep
 {
     width: 1px;
