@@ -157,7 +157,7 @@ $COUNT = intval($arMassiv['COUNT']);
             <div class="slide-2 landingItem" >
                 <div class="wrapper">
                     <div class="title h">
-                        <span>для кого наши услуги?</span>
+                        <span>для кого наши услуги!</span>
                     </div>
                     <div class="slogan">
                         Так уж случилось, что Ваша семья распалась или находится на грани этого...
