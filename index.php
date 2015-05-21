@@ -380,10 +380,35 @@ $COUNT = intval($arMassiv['COUNT']);
                         <div class="desk">
                             <div class="p">Адвокат</div>
                             <div class="name">Епифанова Марина Валерьевна</div>
-                            <div class="posada">руководитель юридической практики</div>
-                            <a href="#inline1" class="call" onclick="metrika='spec';">получить консультацию специалиста</a>
+<!--                            <div class="posada">руководитель юридической практики</div>-->
+                            <a href="#inline1" class="call" onclick="metrika='spec';">получить консультацию</a>
                         </div>
                     </div>
+<!--                    Блок со вторым специалистом-->
+                    <div class="specialist clearfix">
+                        <div class="photo fl-l">
+                            <img src="images/gurgen1.jpg" alt="">
+                        </div>
+                        <div class="desk">
+                            <div class="p">Адвокат</div>
+                            <div class="name">Оганесян Гурген Александрович</div>
+<!--                            <div class="posada">руководитель юридической практики</div>-->
+                            <a href="#inline1" class="call" onclick="metrika='spec';">получить консультацию</a>
+                        </div>
+                    </div>
+<!--                    Блок с третьим специалистом-->
+                    <div class="specialist clearfix">
+                        <div class="photo fl-l">
+                            <img src="images/lena.jpg" alt="">
+                        </div>
+                        <div class="desk">
+                            <div class="p">Юрист</div>
+                            <div class="name">Колесникова Елена Геннадьевна</div>
+<!--                            <div class="posada">руководитель юридической практики</div>-->
+                            <a href="#inline1" class="call" onclick="metrika='spec';">получить консультацию</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="slide6 form-b">

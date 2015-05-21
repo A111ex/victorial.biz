@@ -141,7 +141,7 @@ a.call
 .slide-1
 {
   background: url('../images/slide-1bg.jpg') no-repeat center 153px;
-padding: 172px 0 41px 0;
+padding: 172px 0 0 0;
 }
 .slide-1 h1
 {
@@ -192,7 +192,7 @@ color: #FF0000;
 .block-form-main .action .zapis {
 font-size: 19px;
 margin: 11px 0 0 0;
-padding-bottom: 12px;
+padding-bottom: 8px;
 font-weight: bold;
 }
 .slide-1 .block-form-main .action:after
@@ -437,6 +437,7 @@ font-weight: bold;
     margin-bottom: 15px;
 }
 .slide-2  .slogan p{margin-bottom: 0}
+.slide-2  .slogan p:nth-child(1n+4){font-weight: bold}
 .slide-2  .slogan p+p{text-indent: 1.5em; margin-top: 0}
 
 .sep
@@ -831,7 +832,7 @@ font-weight: bold;
 }
 .slide5
 {
-    background: url('../images/slide5-bg.jpg') no-repeat center top;
+    background: url('../images/slide5-bg.jpg') no-repeat center top #eae6dd;
     padding: 71px 0 80px 0;
 }
 .slide5 .specialist
