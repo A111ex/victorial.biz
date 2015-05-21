@@ -16,8 +16,10 @@ $COUNT = intval($arMassiv['COUNT']);
         <link href="css/res.css" rel="stylesheet">
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/jquery.fancybox.css" rel="stylesheet">
+        <link href="css/nivo-slider.css" rel="stylesheet" type="text/css">
         <link href="css/style.css" rel="stylesheet">
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
         <!-- <script src="js/jquery.bxslider.min.js"></script> -->
         <script src="js/jquery.fancybox.pack.js"></script>
         <script src="js/jquery.maskedinput.min.js"></script>
@@ -32,6 +34,13 @@ $COUNT = intval($arMassiv['COUNT']);
 				$("#week").html(string+"<br/>со скидкой 70%" );
 			}
 		</script>
+                <script type="text/javascript">
+                        $(window).load(function() {
+                            $('#slider').nivoSlider({
+                                            controlNav:false,directionNav:false,effect:'fade',animSpeed: 50,pauseTime: 5000
+                        })
+                });
+                </script>
     </head>
     <body>
 	<!-- Google Tag Manager -->
@@ -117,14 +126,24 @@ $COUNT = intval($arMassiv['COUNT']);
                     <h1>адвокаты и юристы<br/>
                         по семейным спорам</h1>
                     <div class="block-form-main clearfix">
-                        <img src="images/wome1.png" alt="" class="women">
+                        <div class="women">
+                            <div class="slider_container">
+                                <div id="slider" class="nivoSlider">
+                                    <img src="images/carusel/gur.png" alt=""  />
+                                    <img src="images/carusel/len.png" alt=""  /> 
+                                    <img src="images/carusel/mar.png" alt=""  /> 
+                                    <img src="images/carusel/nas.png" alt=""  /> 
+                                </div>
+                            </div>
+                        </div>
+                        <!--<img src="images/wome1.png" alt="" class="women">-->
                         <div class="action fl-l">
                             <div class="t">Акция!</div>
                             <div class="con ccc" style="font-weight: bold;">КОНСУЛЬТАЦИЯ</div>
                             <div class="ccc" style="text-align: center ;">(по предварительной записи)</div>
                             <div id = 'week' class="date ccc" style="font-weight: bold;">
                                 27-1 мая        <br/>                                                                              
-                                со скидкой 70% 
+                                со скидкой 50% 
                             </div >
                             <div class="ccc" style="font-weight: bold;">Стоимость консультации со скидкой: 1000 рублей </div>
                             <div class="ccc" style="text-align:right;font-weight: bold;">без скидки 2000 рублей</div>
