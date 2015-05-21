@@ -31,7 +31,7 @@ $COUNT = intval($arMassiv['COUNT']);
         <script src="js/week.js"></script>
 		<script type="text/javascript">
 			window.onload=function(){
-				$("#week").html(string+"<br/>со скидкой 70%" );
+				$("#week").html(string+"<br/>со скидкой 50%" );
 			}
 		</script>
                 <script type="text/javascript">
