@@ -171,6 +171,7 @@ padding: 172px 0 0 0;
 }
 .slide-1 .block-form-main .action
 {
+    height: 370px;
     background: url('../images/bg-action.png') repeat;
     margin: 24px 0 0 40px;
     padding: 0px 0 9px 196px;
@@ -178,23 +179,23 @@ padding: 172px 0 0 0;
     position: relative;
 }
 .block-form-main .action .ccc {
-padding-right: 65px;
-margin-bottom: 4px;
-padding-left: 67px;
+    padding-right: 65px;
+    margin-bottom: 4px;
+    padding-left: 67px;
 }
 .block-form-main .action .con {
-color: #CA0000;
-text-align: center;
+    color: #CA0000;
+    text-align: center;
 }
 .block-form-main .action .date {
-text-align: center;
-color: #FF0000;
+    text-align: center;
+    color: #FF0000;
 }
 .block-form-main .action .zapis {
-font-size: 19px;
-margin: 11px 0 0 0;
-/*padding-bottom: 31px;*/
-font-weight: bold;
+    font-size: 19px;
+    margin: 11px 0 0 0;
+    /*padding-bottom: 31px;*/
+    font-weight: bold;
 }
 .slide-1 .block-form-main .action:after
 {
