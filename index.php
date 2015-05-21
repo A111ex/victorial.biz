@@ -9,7 +9,7 @@ $COUNT = intval($arMassiv['COUNT']);
 
 <html>
     <head>
-        <title>Юридический центр</title>
+        <title>Юридический центр Викториал</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="images/favicon.ico">
