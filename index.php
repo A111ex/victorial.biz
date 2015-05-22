@@ -16,10 +16,10 @@ $COUNT = intval($arMassiv['COUNT']);
         <link href="css/res.css" rel="stylesheet">
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/jquery.fancybox.css" rel="stylesheet">
-        <link href="css/nivo-slider.css" rel="stylesheet" type="text/css">
+        <!--<link href="css/nivo-slider.css" rel="stylesheet" type="text/css">-->
         <link href="css/style.css" rel="stylesheet">
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+        <!--<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>-->
         <!-- <script src="js/jquery.bxslider.min.js"></script> -->
         <script src="js/jquery.fancybox.pack.js"></script>
         <script src="js/jquery.maskedinput.min.js"></script>
@@ -34,12 +34,43 @@ $COUNT = intval($arMassiv['COUNT']);
 				$("#week").html(string+"<br/>со скидкой 50%" );
 			}
 		</script>
-                <script type="text/javascript">
+<!--                <script type="text/javascript">
                         $(window).load(function() {
                             $('#slider').nivoSlider({
                                             controlNav:false,directionNav:false,effect:'fade',animSpeed: 50,pauseTime: 5000
                         })
                 });
+                </script>-->
+                <script type="text/javascript">
+                    var total_pics_num = 4; // колличество изображений
+                    var interval = 5000;    // задержка между изображениями
+                    var time_out = 1;       // задержка смены изображений
+                    var i = 0;
+                    var timeout;
+                    var opacity = 100;
+                    function fade_to_next() {
+                      opacity--;
+                      var k = i + 1;
+                      var image_now = 'image_' + i;
+                      if (i == total_pics_num) k = 1;
+                      var image_next = 'image_' + k;
+                      document.getElementById(image_now).style.opacity = opacity/100;
+                      document.getElementById(image_now).style.filter = 'alpha(opacity='+ opacity +')';
+                      document.getElementById(image_next).style.opacity = (100-opacity)/100;
+                      document.getElementById(image_next).style.filter = 'alpha(opacity='+ (100-opacity) +')';
+                      timeout = setTimeout("fade_to_next()",time_out);
+                      if (opacity === 1) {
+                        opacity = 100;
+                        clearTimeout(timeout);
+                      }
+                    }
+                    setInterval (
+                      function() {
+                        i++;
+                        if (i > total_pics_num) i=1;
+                        fade_to_next();
+                      }, interval
+                    );
                 </script>
     </head>
     <body>
@@ -127,14 +158,20 @@ $COUNT = intval($arMassiv['COUNT']);
                         по семейным спорам</h1>
                     <div class="block-form-main clearfix">
                         <div class="women">
-                            <div class="slider_container">
-                                <div id="slider" class="nivoSlider">
-                                    <img src="images/carusel/gur.png" alt=""  />
-                                    <img src="images/carusel/len.png" alt=""  /> 
-                                    <img src="images/carusel/mar.png" alt=""  /> 
-                                    <img src="images/carusel/nas.png" alt=""  /> 
-                                </div>
+                            <div>
+                                <img src='images/carusel/slide_1.png' id="image_1" style="position: absolute;" />
+                                <img src='images/carusel/slide_2.png' id="image_2" style="opacity: 0; filter: alpha(opacity=0); position: absolute;" />
+                                <img src='images/carusel/slide_3.png' id="image_3" style="opacity: 0; filter: alpha(opacity=0); position: absolute;" />
+                                <img src='images/carusel/slide_4.png' id="image_4" style="opacity: 0; filter: alpha(opacity=0); position: absolute;" />
                             </div>
+                            <!--                            <div class="slider_container">
+                                                            <div id="slider" class="nivoSlider">
+                                                                <img src="images/carusel/gur.png" alt=""  />
+                                                                <img src="images/carusel/len.png" alt=""  /> 
+                                                                <img src="images/carusel/mar.png" alt=""  /> 
+                                                                <img src="images/carusel/nas.png" alt=""  /> 
+                                                            </div>
+                                                        </div>-->
                         </div>
                         <!--<img src="images/wome1.png" alt="" class="women">-->
                         <div class="action fl-l">
