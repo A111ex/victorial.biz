@@ -979,7 +979,9 @@ $COUNT = intval($arMassiv['COUNT']);
                 </div>
             </div>-->
             <div class="slide19 map landingItem" id="slide-7">
-                <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=vr6i2Pn0tgK2L833-d3JaJvv5DCVqrDH&width&height=390"></script>
+                <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=eRBmQXm5cszE2igcx2IyrIzIJPTv9ELu&width&height=390"></script>
+                <!--<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=njSe65GB1wPFfE9lOHDS9v7venptT7bi&width&height=390"></script>-->
+<!--                <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=vr6i2Pn0tgK2L833-d3JaJvv5DCVqrDH&width&height=390"></script>-->
                 <div class="wrapper">
                     <div class="plashka">
                         <div class="wrap">
@@ -988,7 +990,7 @@ $COUNT = intval($arMassiv['COUNT']);
                                 <span>«викториал»</span>
                             </div>
                             <p>г. Краснодар Фестивальный м/н,  
-                                ул. Монтажников 1, 3 подъезд,<br/> 
+                                ул. Монтажников 1/1, 3 подъезд,<br/> 
                                 3 этаж, офис №1</p>
                         </div>
                     </div>

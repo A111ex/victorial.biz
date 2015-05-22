@@ -439,7 +439,7 @@ padding: 172px 0 0 0;
     margin-bottom: 15px;
 }
 .slide-2  .slogan p{margin-bottom: 0}
-.slide-2  .slogan p:nth-child(1n+4){font-weight: bold}
+.slide-2  .slogan p:nth-child(1n+5){font-weight: bold}
 .slide-2  .slogan p+p{text-indent: 1.5em; margin-top: 0}
 
 .sep
@@ -1432,16 +1432,16 @@ left: -102px;
 .slide19 .wrapper .plashka
 {
     position: absolute;
-    top: 0;
+    top: -15px;
     color: #fff;
     background: url('../images/plashka.png') no-repeat;
     width: 291px;
-    left: 345px;
+    left: 367px;
     height: 134px;
 }
 .slide19 .wrapper .plashka .wrap
 {
-    padding: 17px 47px 0 16px;
+    padding: 17px 43px 0 14px;
 }
 .slide19 .wrapper .plashka .name
 {
