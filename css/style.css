@@ -787,7 +787,7 @@ padding: 172px 0 0 0;
 {
     font-family: 'Scada-Regular';
     color: #fff;
-    margin-bottom: 106px;
+    margin-bottom: 120px;
 }
 .slide4 .items .row > div:first-child
 {
@@ -826,7 +826,7 @@ padding: 172px 0 0 0;
 {
     text-align: center;
     /*margin-top: -19px;*/
-    padding-top: 23px;
+    /*padding-top: 23px;*/
     margin-bottom: 0;
 }
 .slide4 .items .row:last-child .bl
