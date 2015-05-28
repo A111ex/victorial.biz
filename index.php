@@ -43,6 +43,7 @@ $COUNT = intval($arMassiv['COUNT']);
                 });
                 </script>-->
                 <!--comment2-->
+                <!--comment3-->
                 <script type="text/javascript">
                     var total_pics_num = 4; // колличество изображений
                     var interval = 5000;    // задержка между изображениями
