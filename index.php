@@ -1,12 +1,27 @@
 <?php
+//multilanding
+$title = ($_GET[utm_content])?trim($_GET[utm_content]):false;
+//print ('<pre>');print_r(gettype($title));print('</pre>');exit('all');
+switch ($title) {
+    case 'advokatskayaKontora1' || 'advokatskayaKontora2': include 'includes/title/advokatskayaKontora.php';
+        break;
+    default: $arrResult['h1'] = "адвокаты и юристы<br>по семейным спорам";
+        break;
+}
+//if($title == 'grazhdanskieSpori1' || $title == 'grazhdanskieSpori2' ){
+//    $h1 = "Команда специалистов поможет Вам при разводе";
+//} else {
+//    $h1 = "адвокаты и юристы<br>по семейным спорам";
+//}
+
 global $fileMassivPath, $minCnt, $maxCnt;
 require($_SERVER['DOCUMENT_ROOT'].'/init.php');
 $fileMassivPath=__DIR__.'/includes/count.txt';
 $arMassiv=getMassiv();
 $COUNT = intval($arMassiv['COUNT']);
 ?>
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html>
     <head>
         <title>Юридический центр </title>
@@ -156,9 +171,8 @@ $COUNT = intval($arMassiv['COUNT']);
 
             </header>
             <div class="slide-1 landingItem" id="slide-1">
-                <div class="wrapper">
-                    <h1>адвокаты и юристы<br/>
-                        по семейным спорам</h1>
+          <div class="wrapper">
+                    <h1><?=$arrResult['h1']?></h1>
                     <div class="block-form-main clearfix">
                         <div class="women">
                             <div>
