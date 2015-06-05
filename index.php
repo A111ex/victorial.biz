@@ -17,6 +17,7 @@ $COUNT = intval($arMassiv['COUNT']);
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/jquery.fancybox.css" rel="stylesheet">
         <!--<link href="css/nivo-slider.css" rel="stylesheet" type="text/css">-->
+        <link rel="stylesheet" href="css/animate.css">
         <link href="css/style.css" rel="stylesheet">
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
         <!--<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>-->
@@ -29,7 +30,8 @@ $COUNT = intval($arMassiv['COUNT']);
         <script src="js/jquery.liLanding.js"></script>
         <script src="js/main.js"></script>
         <script src="js/week.js"></script>
-        <!--1дата акции-->
+        <script src="js/wow.min.js"></script>
+        <!--дата акции-->
 		<script type="text/javascript">
 			window.onload=function(){
 				$("#week").html(obj.func(obj.arrM)+'-'+obj.func(obj.arrF)+' '+obj.month[obj.month.length - 1]+"<br/>со скидкой 50%" );
@@ -157,8 +159,7 @@ $COUNT = intval($arMassiv['COUNT']);
             </header>
             <div class="slide-1 landingItem" id="slide-1">
                 <div class="wrapper">
-                    <h1>адвокаты и юристы<br/>
-                        по семейным спорам</h1>
+                    <h1>адвокаты и юристы<br>по семейным спорам</h1>
                     <div class="block-form-main clearfix">
                         <div class="women">
                             <div>
@@ -181,10 +182,7 @@ $COUNT = intval($arMassiv['COUNT']);
                             <div class="t">Акция!</div>
                             <div class="con ccc" style="font-weight: bold;">КОНСУЛЬТАЦИЯ</div>
                             <div class="ccc" style="text-align: center ;">(по предварительной записи)</div>
-                            <div id = 'week' class="date ccc" style="font-weight: bold;">
-                                27-1 мая        <br/>                                                                              
-                                со скидкой 50% 
-                            </div >
+                            <div id = 'week' class="date ccc" style="font-weight: bold;"></div >
                             <div class="ccc" style="font-weight: bold;">Стоимость консультации со скидкой: 1000 рублей </div>
                             <div class="ccc" style="text-align:right;font-weight: bold;">без скидки 2000 рублей</div>
                             <div class="t2 ccc" style="font-weight: bold;">ВЫГОДА - ЭКОНОМИЯ  1000 рублей</div>
@@ -203,7 +201,7 @@ $COUNT = intval($arMassiv['COUNT']);
                                     <input type="hidden" name="title" value="Акция">
                                     <input type="text" placeholder="Введите имя" name="name">
                                     <input type="text" placeholder="Введите номер телефона" name="phone">
-                                    <input type="submit" value="ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ" onclick="metrika='akziya';">
+                                    <input type="submit" class="wow pulse" data-wow-iteration="infinite" data-wow-delay="6000ms" data-wow-duration="2300ms" value="ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ" onclick="metrika='akziya';">
                                     <p class="small">Данные никогда не будут 
                                         переданы третьим лицам!</p>
                                 </form>
@@ -1068,5 +1066,8 @@ $COUNT = intval($arMassiv['COUNT']);
     </script>
     <noscript><div><img src="//mc.yandex.ru/watch/29653340" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script>
+ new WOW().init();
+</script>
     </body>
 </html>
