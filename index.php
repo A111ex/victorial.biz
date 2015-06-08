@@ -1,4 +1,46 @@
 <?php
+//multilanding
+$getId = trim($_GET['utm_content']);
+$title = ($getId)?$getId :$title ='default';
+
+//print ('<pre>');print_r($title);print('</pre>');
+if ($title == 'advokatskayaKontora1' || $title == 'advokatskayaKontora2' || $title == 'uridicheskiyKabinet1' || $title == 'uridicheskiyKabinet2') {
+    include 'includes/title/advokatskayaKontora.php';
+}
+
+if ($title == 'zadatVoprosAdvokatu1' || $title == 'zadatVoprosAdvokatu2' || $title == 'voprosAdvokatu1' ||  $title == 'voprosAdvokatu2' || $title == 'uridicheskayaKonsultatziya1' || $title == 'uridicheskayaKonsultatziya2'  || $title == 'konsultatsiyaUrista1' || $title == 'konsultatsiyaUrista2' || $title == 'konsultatsiyaAdvokata1' || $title == 'konsultatsiyaAdvokata2') {
+    include 'includes/title/zadatVoprosAdvokatu.php';
+}
+
+
+if ($title == 'grazhdanskiyAdvokat1' || $title == 'grazhdanskiyAdvokat2') {
+    include 'includes/title/grazhdanskiyAdvokat.php';
+}
+
+if ($title == 'semeyniyAdvokat1' || $title == 'semeyniyAdvokat2') {
+    include 'includes/title/semeyniyAdvokat.php';
+}
+
+if ($title == 'imustchestvoPriRazvode1' || $title == 'imustchestvoPriRazvode2') {
+    include 'includes/title/imustchestvoPriRazvode.php';
+}
+
+if ($title == 'neUplataAlimentov1' || $title == 'neUplataAlimentov2' || $title == 'alimentiNaRebenka1' || $title == 'alimentiNaRebenka2' || $title == 'alimentiVBrake1' || $title == 'alimentiNa2Detey2' || $title == 'alimentiNa2Detey1' || $title == 'alimenti1' || $title == 'alimenti2' || $title == 'alimentiVBrake2') {
+    include 'includes/title/neUplataAlimentov.php';
+}
+
+if ($title == 'razvodSuprugov1' || $title == 'razvodSuprugov2' || $title == 'rastorzhenieBraka1' ||  $title == 'rastorzhenieBraka2' || $title == 'razvodSMuzhem1' || $title == 'razvodSMuzhem2'  || $title == 'razvodCherezSud1' || $title == 'razvodCherezSud2') {
+    include 'includes/title/razvodSuprugov.php';
+}
+
+if ($title == 'osporitZaveshanie1' || $title == 'osporitZaveshanie2') {
+    include 'includes/title/osporitZaveshanie.php';
+}
+
+if ($title == 'moralniyVred1' || $title == 'moralniyVred2') {
+    include 'includes/title/moralniyVred.php';
+}
+//exit();
 global $fileMassivPath, $minCnt, $maxCnt;
 require($_SERVER['DOCUMENT_ROOT'].'/init.php');
 $fileMassivPath=__DIR__.'/includes/count.txt';
@@ -155,11 +197,12 @@ $COUNT = intval($arMassiv['COUNT']);
                         </ul>
                     </div>
                 </nav>
-
             </header>
             <div class="slide-1 landingItem" id="slide-1">
                 <div class="wrapper">
+                    <?php if(is_array($arResult)): echo $arResult['h1']; else:?>
                     <h1>адвокаты и юристы<br>по семейным спорам</h1>
+                    <?php endif;?>
                     <div class="block-form-main clearfix">
                         <div class="women">
                             <div>
@@ -214,12 +257,14 @@ $COUNT = intval($arMassiv['COUNT']);
             <div class="slide-2 landingItem" >
                 <div class="wrapper">
                     <div class="slogan">
+                        <?php if(is_array($arResult)): echo $arResult['slogan']; else:?>
                         <p>Если Ваша семья на грани развода или уже распалась, постоянные скандалы и взаимные упреки измотали Вас и не дают окончательно расстаться, читайте внимательно. Эта информация для Вас.</p>
                         <p>Как безболезненно развестись? Как забрать ребенка у мужа? Как договориться с женой об общении с ребенком после развода? Как разделить имущество, кредиты и начать новую жизнь? Как взыскать алименты и реально их получать?</p>
                         <p>Откладывая решение этих вопросов, Вы рискуете получить нервный срыв, приобрести хронические заболевания. Психологи утверждают, что стресс, получаемый супругами в период развода в 7 раз сильнее, чем от физической утраты близкого человека. Кроме того, Вы рискуете пропустить все сроки обращения в суд для защиты своих прав и лишиться ребенка, имущества.</p>
                         <p>Неправильное поведение в процессе расторжения брака, невнимательность к мелочам и отсутствие опыта в подобных делах способны привести к не менее серьезным последствиям. Вы рискуете остаться без средств к существованию, выбиться из рабочего графика, потерять приобретенное  имущество. На Вас могут «повесить» совместные кредиты и долги. В результате даже после развода Вы будете долгие годы финансово и эмоционально зависеть от супруга. Из-за амбиций одного из родителей возможна полная потеря общения с ребенком, передача его на воспитание чужой маме или чужому папе, с призрачной возможностью лишь издалека наблюдать как он растет.</p>
                         <p>Перестаньте бездействовать! Примите решение,  которое позволит Вам чувствовать себя спокойно и защищенно. Доверьте свои проблемы квалифицированным юристам в области семейного права. Избавьтесь от страха ожидания, неопределенности и сомнений.</p>
                         <p>Специалисты Юридического центра Семейного права знают все о Ваших правах и возможностях при разводе. Наша специализация в сфере семейного права позволяет использовать накопленные знания и опыт  по другим похожим делам при решении Вашей семейной проблемы и гарантирует Вам уверенность в успехе.</p>
+                        <?php endif;?>
                     </div>
 <!--                    <div class="title h">
                         <span>для кого наши услуги!</span>
@@ -274,9 +319,10 @@ $COUNT = intval($arMassiv['COUNT']);
                     <div class="blocks-info clearfix landingItem" id="slide-2">
                         <div class="block fl-l">
                             <div class="t">
-                                <div>чем для вас мы полезны:</div>
+                                <div><?php if($arResult['komp_title']): echo $arResult['komp_title']; else:?>чем для вас мы полезны:<?php endif;?></div>
                             </div>
                             <div class="info clearfix">
+                                <?php if($polza): echo $polza; else:?>
                                 <div class="row clearfix">
                                     <div class="icon fl-l"><img src="images/problem-icon/1.png" alt=""></div>
                                     <div class="desk">Консультируем устно и письменно по 
@@ -299,14 +345,16 @@ $COUNT = intval($arMassiv['COUNT']);
                                     <div class="icon fl-l"><img src="images/problem-icon/4.png" alt=""></div>
                                     <div class="desk">Представляем интересы в суде</div>
                                 </div>
+                                <?php endif;?>
                             </div>
                         </div>
                         <div class="block fl-r">
                             <div class="t">
-                                <div>по каким делам мы 
-                                    можем вам помочь:</div>
+                                <div><?php if($arResult['polza_title']): echo $arResult['polza_title']; else:?>по каким делам мы 
+                                    можем вам помочь:<?php endif;?></div>
                             </div>
-                            <div class="info clearfix">
+                            <div  <?php if ($arResult['height_dela']): echo $arResult['height_dela']; endif;?> class="info clearfix">
+                                <?php if($dela): echo $dela; else:?>
                                 <div class="row clearfix">
                                     <div class="icon fl-l"><img src="images/problem-icon/5.png" alt=""></div>
                                     <div class="desk">Расторжение брака, взыскание 
@@ -347,6 +395,7 @@ $COUNT = intval($arMassiv['COUNT']);
                                         угрозе жизни, здоровью, оскорблении, 
                                         насилии.</div>
                                 </div>
+                                <?php endif;?>
                             </div>
                         </div>
                     </div>
@@ -394,6 +443,7 @@ $COUNT = intval($arMassiv['COUNT']);
                         <span>Ваши выгоды при обращении к нам</span>
                     </div>
                     <div class="items">
+                        <?php if($vigodi): echo $vigodi; else:?>
                         <div class="row clearfix">
                             <div class="bl fl-l">
                                 <!--<div class="t">защищенность </div>-->
@@ -414,6 +464,7 @@ $COUNT = intval($arMassiv['COUNT']);
                                 <p><span>Командная работа наших юристов и адвокатов</span> обеспечивает всесторонний анализ Вашего дела и невозможность упущения из вида важных «мелочей».</p>
                             </div>
                         </div>
+                        <?php endif;?>
                        <!--  <div class="row clearfix">
                             <div class="bl">
                                 <div class="t">Свободное время для работы и личных дел</div>
@@ -506,6 +557,7 @@ $COUNT = intval($arMassiv['COUNT']);
                 <div class="wrapper">
                     <div class="h"><span>наша практика</span></div>
                     <div class="sl">В целях конфиденциальности данные о клиентах намеренно изменены</div>
+                    <?php if($practic_block1): echo $practic_block1; else:?>
                     <div class="title h2"><mark>Расторжение брака. Взыскание алиментов.</mark></div>
                     <div class="single-block">
                         <div class="wrap">
@@ -565,12 +617,13 @@ $COUNT = intval($arMassiv['COUNT']);
                             </div>
                         </div>
                     </div>
+                    <?php endif;?>
                     <div class="sep"></div>
                 </div>
             </div>
             <div class="slide8 form-b">
                 <div class="wrapper clearfix">
-                    <img src="images/form-slide1.png" class="women" alt="">
+                    <img <?php if ($arResult['form_img']): echo $arResult['form_img']; else: ?>src="images/form-slide1.png" <?php endif;?>class="women" alt="">
                     <div class="left-b fl-l">
                         <div class="t">
                             СВЯЖИТЕСЬ <br/>
@@ -607,6 +660,7 @@ $COUNT = intval($arMassiv['COUNT']);
             </div>
             <div class="slide9 text-i">
                 <div class="wrapper">
+                    <?php if($practic_block2): echo $practic_block2; else:?>
                     <div class="title h2"><mark>рАЗДЕЛ ИМУЩЕСТВА СУПРУГОВ. рАЗДЕЛ ДОЛГОВ, КРЕДИТОВ.</mark></div>
                     <div class="single-block">
                         <div class="wrap">
@@ -666,10 +720,11 @@ $COUNT = intval($arMassiv['COUNT']);
                             </div>
                         </div>
                     </div>
+                    <?php endif;?>
                     <div class="sep"></div>
                 </div>
             </div>
-            <div class="slide10 form-b">
+            <div <?php if ($arResult['display_slide_10'] == "none"): ?> style="display: none;"<?php endif;?>class="slide10 form-b">
                 <div class="wrapper clearfix">
                     <img src="images/dom.png" class="women" alt="">
                     <div class="left-b fl-l">
@@ -706,8 +761,9 @@ $COUNT = intval($arMassiv['COUNT']);
                     </div>
                 </div>
             </div>
-            <div class="slide11 text-i">
+            <div <?php if ($arResult['display_slide_11'] == "none"): ?> style="display: none;"<?php endif;?>class="slide11 text-i">
                 <div class="wrapper">
+                    <?php if($practic_block3): echo $practic_block3; else:?>
                     <div class="title h2"><mark>определение места жительства ребенка</mark></div>
                     <div class="single-block">
                         <div class="wrap">
@@ -731,11 +787,13 @@ $COUNT = intval($arMassiv['COUNT']);
                             </div>
                         </div>
                     </div>
+                    <?php endif;?>
                     <div class="sep"></div>
                 </div>
             </div>
-            <div class="slide12 text-i">
+            <div <?php if ($arResult['display_slide_12'] == "none"): ?> style="display: none;"<?php endif;?>class="slide12 text-i">
                 <div class="wrapper">
+                    <?php if($practic_block4): echo $practic_block4; else:?>
                     <div class="title h2"><mark>установление графика общения с ребенком</mark></div>
                     <div class="single-block">
                         <div class="wrap">
@@ -759,12 +817,13 @@ $COUNT = intval($arMassiv['COUNT']);
                             </div>
                         </div>
                     </div>
+                    <?php endif;?>
                     <div class="sep"></div>
                 </div>
             </div>
-            <div class="slide13 form-b">
+            <div <?php if ($arResult['display_slide_13'] == "none"): ?> style="display: none;"<?php endif;?> class="slide13 form-b">
                 <div class="wrapper clearfix">
-                    <img src="images/mom.png" class="women" alt="">
+                    <img <?php if ($arResult['form_img2']): echo $arResult['form_img2']; else: ?>src="images/mom.png"<?php endif;?> class="women" alt="">
                     <div class="left-b fl-l">
                         <div class="t">
                             ЗАЩИТИТЕ <br/>
@@ -799,8 +858,9 @@ $COUNT = intval($arMassiv['COUNT']);
                     </div>
                 </div>
             </div>
-            <div class="slide14 text-i">
+            <div <?php if ($arResult['display_slide_14'] == "none"): ?> style="display: none;"<?php endif;?> class="slide14 text-i">
                 <div class="wrapper">
+                    <?php if($practic_block5): echo $practic_block5; else:?>
                     <div class="title h2"><mark>установление отцовства</mark></div>
                     <div class="single-block">
                         <div class="wrap">
@@ -826,6 +886,7 @@ $COUNT = intval($arMassiv['COUNT']);
                             </div>
                         </div>
                     </div>
+                    <?php endif; ?>
                     <div class="sep"></div>
                 </div>
             </div>

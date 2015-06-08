@@ -4,7 +4,7 @@ $arResult =  array(
     slogan => "<p>Ваши права нарушены. Время идет, силы на исходе, а проблема только усугубляется. Вы перестали спокойно спать, на работе все валится из рук. Вы понимаете, что можете потерпеть полную неудачу. Есть ли выход?</p>"
                 . "<p>Выход есть! Избавьтесь от страха и постоянного беспокойства уже сегодня! Почувствуйте себя спокойно и защищено.</p>"
                 . "<p>Решите свою проблему через суд с нашей помощью за 3 месяца.</p>"
-                . "<p>Опыт работы по подобным делам более 10 лет даст Вам гарантию успеха.</p>"
+                . "<p>Опыт работы по гражданским делам более 10 лет даст Вам гарантию успеха.</p>"
                 . "<p>Все Ваши расходы на юридические услуги взыскиваются с виновного и возвращаются Вам.</p>",
     display_slide_14 => "none",
     display_slide_13 => "none"
@@ -39,31 +39,29 @@ $dela = <<<XXX
                                     <div class="desk">Наследственные дела</div>
                                 </div>
                                 <div class="row clearfix">
+                                    <div class="icon fl-l"><img src="images/problem-icon/6.png" alt=""></div>
+                                    <div class="desk">Жилищные дела</div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="icon fl-l"><img src="images/problem-icon/6.png" alt=""></div>
+                                    <div class="desk">Земельные дела</div>
+                                </div>
+                                <div class="row clearfix">
                                     <div class="icon fl-l"><img src="images/problem-icon/7.png" alt=""></div>
-                                    <div class="desk">Защита прав потребителей:
-                                        <ul>
-                                            <li>кредиты</li>
-                                            <li>некачественный товар</li>
-                                            <li>некачественные услуги</li>
-                                            <li>и многое другое</li>
-                                        </ul>
+                                    <div class="desk">Дела о защите прав потребителей (кредиты, некачественный товар, услуги и пр.)
                                     </div>
                                 </div>
                                 <div class="row clearfix">
                                     <div class="icon fl-l"><img src="images/problem-icon/8.png" alt=""></div>
-                                    <div class="desk">Оспаривание завещаний, договоров</div>
+                                    <div class="desk">Дела по оспариванию завещаний, договоров</div>
                                 </div> 
                                 <div class="row clearfix">
                                     <div class="icon fl-l"><img src="images/problem-icon/9.png" alt=""></div>
-                                    <div class="desk">Взыскание долгов</div>
+                                    <div class="desk">Дела о взыскании долгов</div>
                                 </div>
                                 <div class="row clearfix">
                                     <div class="icon fl-l"><img src="images/problem-icon/10.png" alt=""></div>
-                                    <div class="desk">Признание граждан банкротами </div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/10.png" alt=""></div>
-                                    <div class="desk">Жилищные дела</div>
+                                    <div class="desk">Дела о признании граждан банкротами</div>
                                 </div>
 XXX;
 
@@ -71,7 +69,7 @@ $vigodi = <<<EOT
                        <div class="row clearfix">
                             <div class="bl fl-l">
                                 <!--<div class="t">защищенность </div>-->
-                                <p><span>Наша многолетняя практика</span> позволяет использовать накопленные знания и опыт по другим похожим делам при решении Вашей проблемы и гарантирует Вам уверенность в успехе.</p>
+                                <p><span>Наша специализация в сфере гражданского права</span> позволяет использовать накопленные знания и опыт по другим похожим делам при решении Вашей проблемы и гарантирует Вам уверенность в успехе.</p>
                             </div>
                             <div class="bl fl-r">
                                 <!--<div class="t">Свободное время для работы и личных дел</div>-->
@@ -253,3 +251,4 @@ $practic_block4 = <<<EOT
                         </div>
                     </div>
 EOT;
+

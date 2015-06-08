@@ -1,11 +1,11 @@
 <?php
 $arResult =  array(
-    h1 => "<h1 style=\"font-size: 52px; line-height: 63px;\">Решение Ваших проблем командой юристов и адвокатов за 3 месяца. Опыт работы 10 лет.<br>Оплата услуг за счет ответчика</h1>",
-    slogan => "<p>Ваши права нарушены. Время идет, силы на исходе, а проблема только усугубляется. Вы перестали спокойно спать, на работе все валится из рук. Вы понимаете, что можете потерпеть полную неудачу. Есть ли выход?</p>"
-                . "<p>Выход есть! Избавьтесь от страха и постоянного беспокойства уже сегодня! Почувствуйте себя спокойно и защищено.</p>"
-                . "<p>Решите свою проблему через суд с нашей помощью за 3 месяца.</p>"
+    h1 => "<h1 style=\"font-size: 52px; line-height: 63px;\">Узнайте 2 способа решения Вашей проблемы уже сегодня. Юристы и адвокаты. Опыт работы 10 лет</h1>",
+    slogan => "<p>Ваши права нарушены. Время идет, силы на исходе, а проблема только усугубляется. Вы перестали спокойно спать, на работе все валится из рук. Вы не знаете что делать дальше. Есть ли выход?</p>"
+                . "<p>Выход есть! Избавьтесь от страха и постоянного беспокойства уже сегодня!</p>"
+                . "<p>Узнайте  сразу 2 способа решения своей проблемы!  Консультируют юристы и адвокаты с опытом работы 10 лет.</p>"
                 . "<p>Опыт работы по подобным делам более 10 лет даст Вам гарантию успеха.</p>"
-                . "<p>Все Ваши расходы на юридические услуги взыскиваются с виновного и возвращаются Вам.</p>",
+                . "<p>Почувствуйте себя спокойно и защищено.</p>",
     display_slide_14 => "none",
     display_slide_13 => "none"
 );
@@ -25,46 +25,46 @@ $polza = <<<EOT
                     </div>
                     <div class="row clearfix">
                         <div class="icon fl-l"><img src="images/problem-icon/4.png" alt=""></div>
-                        <div class="desk">Полностью ведем Ваше дело в суде </div>
+                        <div class="desk">Полностью ведем Ваше дело в суде</div>
                     </div>
 EOT;
 
 $dela = <<<XXX
-                                <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/5.png" alt=""></div>
-                                    <div class="desk">Семейные дела</div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/6.png" alt=""></div>
-                                    <div class="desk">Наследственные дела</div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/7.png" alt=""></div>
-                                    <div class="desk">Защита прав потребителей:
-                                        <ul>
-                                            <li>кредиты</li>
-                                            <li>некачественный товар</li>
-                                            <li>некачественные услуги</li>
-                                            <li>и многое другое</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/8.png" alt=""></div>
-                                    <div class="desk">Оспаривание завещаний, договоров</div>
-                                </div> 
-                                <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/9.png" alt=""></div>
-                                    <div class="desk">Взыскание долгов</div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/10.png" alt=""></div>
-                                    <div class="desk">Признание граждан банкротами </div>
-                                </div>
-                                <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/10.png" alt=""></div>
-                                    <div class="desk">Жилищные дела</div>
-                                </div>
+                    <div class="row clearfix">
+                        <div class="icon fl-l"><img src="images/problem-icon/5.png" alt=""></div>
+                        <div class="desk">Семейные дела</div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="icon fl-l"><img src="images/problem-icon/6.png" alt=""></div>
+                        <div class="desk">Наследственные дела</div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="icon fl-l"><img src="images/problem-icon/7.png" alt=""></div>
+                        <div class="desk">Защита прав потребителей:
+                            <ul>
+                                <li>кредиты</li>
+                                <li>некачественный товар</li>
+                                <li>некачественные услуги</li>
+                                <li>и многое другое</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="icon fl-l"><img src="images/problem-icon/8.png" alt=""></div>
+                        <div class="desk">Оспаривание завещаний, договоров</div>
+                    </div> 
+                    <div class="row clearfix">
+                        <div class="icon fl-l"><img src="images/problem-icon/9.png" alt=""></div>
+                        <div class="desk">Взыскание долгов</div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="icon fl-l"><img src="images/problem-icon/10.png" alt=""></div>
+                        <div class="desk">Признание граждан банкротами </div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="icon fl-l"><img src="images/problem-icon/10.png" alt=""></div>
+                        <div class="desk">Жилищные дела</div>
+                    </div>
 XXX;
 
 $vigodi = <<<EOT
@@ -89,7 +89,6 @@ $vigodi = <<<EOT
                             </div>
                         </div>
 EOT;
-
 
 $practic_block1 = <<<EOT
                     <div class="title h2"><mark>Семейные дела</mark></div>
@@ -253,3 +252,4 @@ $practic_block4 = <<<EOT
                         </div>
                     </div>
 EOT;
+
