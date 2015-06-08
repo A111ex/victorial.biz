@@ -39,23 +39,23 @@ $dela = <<<XXX
                                     <div class="desk">Защите прав потребителей (кредиты, некачественный товар, услуги и пр.)</div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/6.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/8.png" alt=""></div>
                                     <div class="desk">Распространении сведений, порочащих честь, достоинство или деловую репутацию</div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/7.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/9.png" alt=""></div>
                                     <div class="desk">Трудовых спорах</div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/8.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/10.png" alt=""></div>
                                     <div class="desk">Иске потерпевшего от преступления</div>
                                 </div> 
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/9.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/5.png" alt=""></div>
                                     <div class="desk">Причинении вреда здоровью, увечье</div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/10.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/7.png" alt=""></div>
                                     <div class="desk">Других спорах</div>
                                 </div>
 XXX;
@@ -116,7 +116,7 @@ $practic_block2 = <<<EOT
                         <div class="wrap">
                             <div class="row clearfix">
                                 <div class="left fl-l">
-                                    <span class="n">1</span>
+                                    <span class="n">2</span>
                                     <div class="icon">
                                         <img src="images/icon/1.png" alt="">
                                     </div>

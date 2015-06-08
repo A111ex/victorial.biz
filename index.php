@@ -4,20 +4,30 @@ $getId = trim($_GET['utm_content']);
 $title = ($getId)?$getId :$title ='default';
 
 //print ('<pre>');print_r($title);print('</pre>');
-if ($title == 'advokatskayaKontora1' || $title == 'advokatskayaKontora2' || $title == 'uridicheskiyKabinet1' || $title == 'uridicheskiyKabinet2') {
+if (    $title == 'advokatskayaKontora1' || $title == 'advokatskayaKontora2'    || 
+        $title == 'uridicheskiyKabinet1' || $title == 'uridicheskiyKabinet2'    || 
+        $title == 'uridicheskiyAdvokat1' || $title == 'uridicheskiyAdvokat2') {
     include 'includes/title/advokatskayaKontora.php';
 }
 
-if ($title == 'zadatVoprosAdvokatu1' || $title == 'zadatVoprosAdvokatu2' || $title == 'voprosAdvokatu1' ||  $title == 'voprosAdvokatu2' || $title == 'uridicheskayaKonsultatziya1' || $title == 'uridicheskayaKonsultatziya2'  || $title == 'konsultatsiyaUrista1' || $title == 'konsultatsiyaUrista2' || $title == 'konsultatsiyaAdvokata1' || $title == 'konsultatsiyaAdvokata2') {
+if (    $title == 'zadatVoprosAdvokatu1'        || $title == 'zadatVoprosAdvokatu2'         || 
+        $title == 'voprosAdvokatu1'             || $title == 'voprosAdvokatu2'              || 
+        $title == 'uridicheskayaKonsultatziya1' || $title == 'uridicheskayaKonsultatziya2'  || 
+        $title == 'konsultatsiyaUrista1'        || $title == 'konsultatsiyaUrista2'         || 
+        $title == 'konsultatsiyaAdvokata1'      || $title == 'konsultatsiyaAdvokata2') {
     include 'includes/title/zadatVoprosAdvokatu.php';
 }
 
 
-if ($title == 'grazhdanskiyAdvokat1' || $title == 'grazhdanskiyAdvokat2') {
+if (    $title == 'advokatPoGrazhdanskimDelam1' || $title == 'advokatPoGrazhdanskimDelam2'  || 
+        $title == 'grazhdanskiyeUslugi1'        || $title == 'grazhdanskiyeUslugi2'         || 
+        $title == 'grazhdanskieSpori1'          || $title == 'grazhdanskieSpori2'           || 
+        $title == 'grazhdanskiyAdvokat1'        || $title == 'grazhdanskiyAdvokat2') {
     include 'includes/title/grazhdanskiyAdvokat.php';
 }
 
-if ($title == 'semeyniyAdvokat1' || $title == 'semeyniyAdvokat2') {
+if (    $title == 'advokatPoSemeynimDelam1' || $title == 'advokatPoSemeynimDelam2' || 
+        $title == 'semeyniyAdvokat1'        || $title == 'semeyniyAdvokat2') {
     include 'includes/title/semeyniyAdvokat.php';
 }
 
@@ -25,15 +35,31 @@ if ($title == 'imustchestvoPriRazvode1' || $title == 'imustchestvoPriRazvode2') 
     include 'includes/title/imustchestvoPriRazvode.php';
 }
 
-if ($title == 'neUplataAlimentov1' || $title == 'neUplataAlimentov2' || $title == 'alimentiNaRebenka1' || $title == 'alimentiNaRebenka2' || $title == 'alimentiVBrake1' || $title == 'alimentiNa2Detey2' || $title == 'alimentiNa2Detey1' || $title == 'alimenti1' || $title == 'alimenti2' || $title == 'alimentiVBrake2') {
+if (    $title == 'neUplataAlimentov1'  || $title == 'neUplataAlimentov2'   || 
+        $title == 'alimentiNaRebenka1'  || $title == 'alimentiNaRebenka2'   || 
+        $title == 'alimentiVBrake1'     || $title == 'alimentiVBrake2'      || 
+        $title == 'alimentiNa2Detey1'   || $title == 'alimentiNa2Detey2'    || 
+        $title == 'alimenti2'           || $title == 'alimentiVBrake2'      ||
+        $title == 'uplataAlimentov1'    || $title == 'uplataAlimentov2'     ||
+        $title == 'dolgiPoAlimentam1'   || $title == 'dolgiPoAlimentam2'    ||
+        $title == 'alimentiNa2Detey1'   || $title == 'alimentiNa2Detey2'    ||
+        $title == 'alimentiVBrake1'     || $title == 'alimentiVBrake2'      ) {
     include 'includes/title/neUplataAlimentov.php';
 }
 
-if ($title == 'razvodSuprugov1' || $title == 'razvodSuprugov2' || $title == 'rastorzhenieBraka1' ||  $title == 'rastorzhenieBraka2' || $title == 'razvodSMuzhem1' || $title == 'razvodSMuzhem2'  || $title == 'razvodCherezSud1' || $title == 'razvodCherezSud2') {
+if (    $title == 'razvodSuprugov1'         ||  $title == 'razvodSuprugov2'         || 
+        $title == 'rastorzhenieBraka1'      ||  $title == 'rastorzhenieBraka2'      || 
+        $title == 'razvodSMuzhem1'          ||  $title == 'razvodSMuzhem2'          || 
+        $title == 'razvodCherezSud1'        ||  $title == 'razvodCherezSud2'        ||
+        $title == 'razvodSud1'              ||  $title == 'razvodSud2'              ||
+        $title == 'razvodSZhenoy1'          ||  $title == 'razvodSZhenoy2'          ||
+        $title == 'kakRazvestisSZhenoy1'    ||  $title == 'kakRazvestisSZhenoy2'    ||
+        $title == 'kakRazvestisSMuzhem1'    ||  $title == 'kakRazvestisSMuzhem2'    ) {
     include 'includes/title/razvodSuprugov.php';
 }
 
-if ($title == 'osporitZaveshanie1' || $title == 'osporitZaveshanie2') {
+if (    $title == 'osporitZaveshanie1'      || $title == 'osporitZaveshanie2' ||
+        $title == 'advokatPoNasledstvu1' || $title == 'advokatPoNasledstvu2') {
     include 'includes/title/osporitZaveshanie.php';
 }
 

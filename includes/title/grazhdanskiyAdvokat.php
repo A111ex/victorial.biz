@@ -31,7 +31,7 @@ EOT;
 
 $dela = <<<XXX
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/5.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/7.png" alt=""></div>
                                     <div class="desk">Семейные дела</div>
                                 </div>
                                 <div class="row clearfix">
@@ -39,20 +39,20 @@ $dela = <<<XXX
                                     <div class="desk">Наследственные дела</div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/6.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/5.png" alt=""></div>
                                     <div class="desk">Жилищные дела</div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/6.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/8.png" alt=""></div>
                                     <div class="desk">Земельные дела</div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/7.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/5.png" alt=""></div>
                                     <div class="desk">Дела о защите прав потребителей (кредиты, некачественный товар, услуги и пр.)
                                     </div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/8.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/6.png" alt=""></div>
                                     <div class="desk">Дела по оспариванию завещаний, договоров</div>
                                 </div> 
                                 <div class="row clearfix">

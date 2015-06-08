@@ -31,7 +31,7 @@ EOT;
 
 $dela = <<<XXX
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/5.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/7.png" alt=""></div>
                                     <div class="desk">Семейные дела</div>
                                 </div>
                                 <div class="row clearfix">
@@ -39,7 +39,7 @@ $dela = <<<XXX
                                     <div class="desk">Наследственные дела</div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/7.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/5.png" alt=""></div>
                                     <div class="desk">Защита прав потребителей:
                                         <ul>
                                             <li>кредиты</li>
@@ -50,19 +50,19 @@ $dela = <<<XXX
                                     </div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/8.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/9.png" alt=""></div>
                                     <div class="desk">Оспаривание завещаний, договоров</div>
                                 </div> 
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/9.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/10.png" alt=""></div>
                                     <div class="desk">Взыскание долгов</div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/10.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/5.png" alt=""></div>
                                     <div class="desk">Признание граждан банкротами </div>
                                 </div>
                                 <div class="row clearfix">
-                                    <div class="icon fl-l"><img src="images/problem-icon/10.png" alt=""></div>
+                                    <div class="icon fl-l"><img src="images/problem-icon/6.png" alt=""></div>
                                     <div class="desk">Жилищные дела</div>
                                 </div>
 XXX;
