@@ -252,9 +252,9 @@ $COUNT = intval($arMassiv['COUNT']);
                             <div class="con ccc" style="font-weight: bold;">КОНСУЛЬТАЦИЯ</div>
                             <div class="ccc" style="text-align: center ;">(по предварительной записи)</div>
                             <div id = 'week' class="date ccc" style="font-weight: bold;"></div >
-                            <div class="ccc" style="font-weight: bold;">Стоимость консультации со скидкой: 1000 рублей </div>
-                            <div class="ccc" style="text-align:right;font-weight: bold;">без скидки 2000 рублей</div>
-                            <div class="t2 ccc" style="font-weight: bold;">ВЫГОДА - ЭКОНОМИЯ  1000 рублей</div>
+                            <div class="ccc" style="font-weight: bold;">Стоимость консультации со скидкой: 500 рублей </div>
+                            <div class="ccc" style="text-align:right;font-weight: bold;">без скидки 1000 рублей</div>
+                            <div class="t2 ccc" style="font-weight: bold;">ВЫГОДА - ЭКОНОМИЯ  500 рублей</div>
                             <div class="zapis ccc" style="">ЗАПИСЬ ОГРАНИЧЕНА<br>
                                 УЖЕ ЗАПИСАЛОСЬ <span class="chel"><?= $COUNT ?></span> ЧЕЛ<?= ($COUNT < 2 || $COUNT > 4) ? '' : '' ?>
                             </div>
