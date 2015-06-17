@@ -22,7 +22,8 @@ if (    $title == 'zadatVoprosAdvokatu1'        || $title == 'zadatVoprosAdvokat
 if (    $title == 'advokatPoGrazhdanskimDelam1' || $title == 'advokatPoGrazhdanskimDelam2'  || 
         $title == 'grazhdanskiyeUslugi1'        || $title == 'grazhdanskiyeUslugi2'         || 
         $title == 'grazhdanskieSpori1'          || $title == 'grazhdanskieSpori2'           || 
-        $title == 'grazhdanskiyAdvokat1'        || $title == 'grazhdanskiyAdvokat2') {
+        $title == 'grazhdanskiyAdvokat1'        || $title == 'grazhdanskiyAdvokat2'         ||
+        $title == 'advokatKrasnodara1'          || $title == 'advokatKrasnodara2' ) {
     include 'includes/title/grazhdanskiyAdvokat.php';
 }
 
