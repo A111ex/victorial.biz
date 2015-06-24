@@ -59,12 +59,33 @@ if (    $title == 'razvodSuprugov1'         ||  $title == 'razvodSuprugov2'     
     include 'includes/title/razvodSuprugov.php';
 }
 
-if (    $title == 'osporitZaveshanie1'      || $title == 'osporitZaveshanie2' ||
-        $title == 'advokatPoNasledstvu1' || $title == 'advokatPoNasledstvu2') {
+if (    $title == 'osporitZaveshanie1'                                          || $title == 'osporitZaveshanie2' ||
+        $title == 'advokatPoNasledstvu1'                                        || $title == 'advokatPoNasledstvu2'    ||
+        $title == 'nasledstvoSud1'                                              || $title == 'nasledstvoSud2'    ||
+        $title == 'nasledstvoKvartiry1'                                         || $title == 'nasledstvoKvartiry2'    ||
+        $title == 'kakOformitNasledstvo1'                                       || $title == 'kakOformitNasledstvo2'    ||
+        $title == 'oformlenieNasledstva1'                                       || $title == 'oformlenieNasledstva2'    ||
+        $title == 'nasledstvennyeDela1'                                         || $title == 'nasledstvennyeDela2'    ||
+        $title == 'osporitZaveshchanie1'                                        || $title == 'osporitZaveshchanie2'    ||
+        $title == 'kakVstupitVNasledstvo1'                                      || $title == 'kakVstupitVNasledstvo2'    ||
+        $title == 'nasledstvo-po-zaveshchaniyu1'                                || $title == 'nasledstvo-po-zaveshchaniyu2'    ||
+        $title == 'nasledstvo-kvartiry1'                                        || $title == 'nasledstvo-kvartiry2'    ||
+        $title == 'vstuplenie-v-nasledstvo1'                                    || $title == 'vstuplenie-v-nasledstvo2'    ||
+        $title == 'prinyatie-nasledstva1'                                       || $title == 'prinyatie-nasledstva2' ||
+        $title == 'poluchenie-nasledstva1'                                      || $title == 'poluchenie-nasledstva2' ||
+        $title == 'pravo-na-nasledstvo1'                                        || $title == 'pravo-na-nasledstvo2' ||
+        $title == 'vosstanovlenie-sroka-dlya-prinyatiya-nasledstva1'            || $title == 'vosstanovlenie-sroka-dlya-prinyatiya-nasledstva2' ||
+        $title == 'nasledstvo-po-zaveshchaniyu1'                                || $title == 'nasledstvo-po-zaveshchaniyu2' ||
+        $title == 'otkaz-ot-nasledstva1'                                        || $title == 'otkaz-ot-nasledstva2' ) {
     include 'includes/title/osporitZaveshanie.php';
 }
 
-if ($title == 'moralniyVred1' || $title == 'moralniyVred2') {
+if ($title == 'moralniyVred1'                   || $title == 'moralniyVred2' ||
+     $title == 'moralnayaKompensaciya1'         || $title == 'moralnayaKompensaciya2' ||
+     $title == 'kompensaciyaMoralnogoVreda1'    || $title == 'kompensaciyaMoralnogoVreda2' ||
+     $title == 'vozmeshchenieMoralnogoVreda1'   || $title == 'vozmeshchenieMoralnogoVreda2' ||
+     $title == 'vzyskanieMoralnogoVreda1'       || $title == 'vzyskanieMoralnogoVreda2' ||   
+     $title == 'moralnyjUshcherb1'              || $title == 'moralnyjUshcherb2') {
     include 'includes/title/moralniyVred.php';
 }
 //exit();
@@ -283,15 +304,31 @@ $COUNT = intval($arMassiv['COUNT']);
             </div>
             <div class="slide-2 landingItem" >
                 <div class="wrapper">
-                    <div class="slogan">
-                        <?php if(is_array($arResult)): echo $arResult['slogan']; else:?>
-                        <p>Если Ваша семья на грани развода или уже распалась, постоянные скандалы и взаимные упреки измотали Вас и не дают окончательно расстаться, читайте внимательно. Эта информация для Вас.</p>
-                        <p>Как безболезненно развестись? Как забрать ребенка у мужа? Как договориться с женой об общении с ребенком после развода? Как разделить имущество, кредиты и начать новую жизнь? Как взыскать алименты и реально их получать?</p>
-                        <p>Откладывая решение этих вопросов, Вы рискуете получить нервный срыв, приобрести хронические заболевания. Психологи утверждают, что стресс, получаемый супругами в период развода в 7 раз сильнее, чем от физической утраты близкого человека. Кроме того, Вы рискуете пропустить все сроки обращения в суд для защиты своих прав и лишиться ребенка, имущества.</p>
-                        <p>Неправильное поведение в процессе расторжения брака, невнимательность к мелочам и отсутствие опыта в подобных делах способны привести к не менее серьезным последствиям. Вы рискуете остаться без средств к существованию, выбиться из рабочего графика, потерять приобретенное  имущество. На Вас могут «повесить» совместные кредиты и долги. В результате даже после развода Вы будете долгие годы финансово и эмоционально зависеть от супруга. Из-за амбиций одного из родителей возможна полная потеря общения с ребенком, передача его на воспитание чужой маме или чужому папе, с призрачной возможностью лишь издалека наблюдать как он растет.</p>
-                        <p>Перестаньте бездействовать! Примите решение,  которое позволит Вам чувствовать себя спокойно и защищенно. Доверьте свои проблемы квалифицированным юристам в области семейного права. Избавьтесь от страха ожидания, неопределенности и сомнений.</p>
-                        <p>Специалисты Юридического центра Семейного права знают все о Ваших правах и возможностях при разводе. Наша специализация в сфере семейного права позволяет использовать накопленные знания и опыт  по другим похожим делам при решении Вашей семейной проблемы и гарантирует Вам уверенность в успехе.</p>
-                        <?php endif;?>
+                    <div class="sep2"></div>
+                    <div class="blocks-info clearfix landingItem" id="slide-2">
+                        <div class="block fl-l vigodi">
+                            <div class="t">
+                                <div class = "vigodi-title">ПОЧЕМУ С НАМИ ВЫГОДНО РАБОТАТЬ</div>
+                            </div>
+                            <div class="info clearfix">
+                                <div class="row clearfix">
+                                    <div class="icon fl-l"><img src="images/problem-nasledstvo/11.png" alt=""></div>
+                                    <div class="desk"><b>Бесплатно взыскиваем  с другой стороны спора Ваши расходы на юридические услуги</b> -  Вы получаете назад свои деньги. </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="icon fl-l"><img src="images/problem-nasledstvo/11.png" alt=""></div>
+                                    <div class="desk"> <b>Работаем с  8.00 до 20.00 каждый день, включая субботу</b> - Вам не нужно отпрашиваться с работы или просить знакомых забрать ребенка из садика, чтобы встретиться с юристами. С нами Вы решаете свои проблемы без ущерба для работы и семьи. </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="icon fl-l"><img src="images/problem-nasledstvo/11.png" alt=""></div>
+                                    <div class="desk"><b>Сами занимаемся сбором всех справок и документов</b> — Вы получаете решение Вашей проблемы без каких-либо усилий. </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="icon fl-l"><img src="images/problem-nasledstvo/11.png" alt=""></div>
+                                    <div class="desk"><b>Еженедельно предоставляем Вам отчет о результатах работы по электронной почте</b>— это  позволяет Вам всегда быть в курсе движения Вашего дела.</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 <!--                    <div class="title h">
                         <span>для кого наши услуги!</span>

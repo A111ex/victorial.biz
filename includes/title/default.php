@@ -1,5 +1,4 @@
 <?php
-
-//echo 'default';
-
-
+$arResult =  array(
+    slogan_display => 'none'
+);

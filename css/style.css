@@ -382,7 +382,7 @@ a.call
 .slide-2
 {
     border-top: 17px solid #F1EFE5;
-    padding: 38px 0 44px 0;
+    padding: 10px 0 44px 0;
 }
 .slide-2 .title
 {
@@ -510,6 +510,12 @@ a.call
     width: 460px;
     margin: 8px 0 0 0;
 }
+
+.slide-2  .blocks-info .vigodi
+{
+    width: 100%;
+}
+
 .slide-2  .blocks-info .block .t
 {
     font-family: 'Scada-Bold';
@@ -536,12 +542,20 @@ a.call
     height: 70px;
     line-height: 28px;
 }
+.slide-2  .blocks-info .block .t .vigodi-title{
+    width: 960px;
+    text-align: center;
+    font-size: 35px;
+}
 .slide-2  .blocks-info .block .info
 {
     background: #F6F7EF;
     padding: 24px 15px 17px 18px;
     border: 3px solid #E9E9E7;
     min-height: 670px;
+}
+.slide-2  .blocks-info .vigodi .info{
+    min-height: 370px;
 }
 .slide-2  .blocks-info .block .info .row
 {
