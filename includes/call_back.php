@@ -12,12 +12,12 @@ if ($_POST) { // если передан массив POST
     $phone = $_POST['phone'];          
     $text_title = $_POST['title'];          
     $title = ''.$text_title.'';     
-    $text = "
+    $text = "Консультация 500р<br>
             Имя: $name<br />   
             Телефон: $phone<br/>
             Откуда: victorial.biz<br/>";    
     /* $to = "masterv12@ya.ru"; */
-    $to = "vic@victorial.biz";
+    $to = "vic@victorial.biz, advokatkrasnodar@yandex.ru";
 	$subject="=?utf-8?B?". base64_encode("$title"). "?=";
 	$header="From:  victorial.biz"; 
 	$header.="\nContent-type: text/html; charset=\"utf-8\"";
