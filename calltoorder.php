@@ -14,7 +14,7 @@ if(isset($namecall) && isset($telcall)){
 	if ($namecall) {trim($namecall);} else { $namecall = ""; }
 	if ($telcall) {trim($telcall);} else { $telcall = ""; }
 	
-	$mail = "vic@victorial.biz";
+    $mail = "vic@victorial.biz, advokatkrasnodar@yandex.ru";
     $title_mass  = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=\"utf-8\"\r\n";
     //$title_mass  .= "Bcc: alexdamir@mail.ru\r\n";
     $title_mass  .= "From: victorial.biz"; 
@@ -27,7 +27,7 @@ if(isset($namecall) && isset($telcall)){
     } else {
       $title = "Заказан обратный звонок.";
     }
-	$message = "\nФИО: ".$namecall."\nТелефон: ".$telcall ."\n";
+	$message = "\nКонсультация 500 рублей\nФИО: ".$namecall."\nТелефон: ".$telcall ."\n";
     if($_POST['metrika']=='vopros') {
       $emailcall = ( isset($_POST['emailcall'])? $_POST['emailcall']:'' ); 
       $messagecall = ( isset($_POST['messagecall'])? $_POST['messagecall']:'' );
