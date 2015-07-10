@@ -1,4 +1,4 @@
-<?
+<?php
 //print 100;
 function getMassiv(){
 	global $fileMassivPath;
