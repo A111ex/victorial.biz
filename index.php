@@ -223,7 +223,7 @@ $COUNT = intval($arMassiv['COUNT']);
                             </a>
                         </div>
                         <div class="telephone fl-r">
-                            <div class="tel">8 (800) 333-02-74</div>
+                            <div class="tel">8 (928) 444-40-10</div>
                             <a href="#inline1" class="call" onclick="metrika='call_head';">Записаться на встречу</a>
                         </div>
                     </div>
@@ -478,7 +478,7 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                         <div class="telephone">
                             <p>Звоните по телефону:</p>
-                            <span>8 (800) 333-02-74</span>
+                            <span>8 (928) 444-40-10</span>
                         </div>
                         <div class="ors">
                             или:  <img src="images/arrow.png" alt="">
@@ -594,7 +594,7 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                         <div class="telephone">
                             <p>Звоните по телефону:</p>
-                            <span>8 (800) 333-02-74</span>
+                            <span>8 (928) 444-40-10</span>
                         </div>
                         <div class="ors">
                             или:  <img src="images/arrow.png" alt="">
@@ -699,7 +699,7 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                         <div class="telephone">
                             <p>Звоните по телефону:</p>
-                            <span>8 (800) 333-02-74</span>
+                            <span>8 (928) 444-40-10</span>
                         </div>
                         <div class="ors">
                             или:  <img src="images/arrow.png" alt="">
@@ -802,7 +802,7 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                         <div class="telephone">
                             <p>Звоните по телефону:</p>
-                            <span>8 (800) 333-02-74</span>
+                            <span>8 (928) 444-40-10</span>
                         </div>
                         <div class="ors">
                             или:  <img src="images/arrow.png" alt="">
@@ -899,7 +899,7 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                         <div class="telephone">
                             <p>Звоните по телефону:</p>
-                            <span>8 (800) 333-02-74</span>
+                            <span>8 (928) 444-40-10</span>
                         </div>
                         <div class="ors">
                             или:  <img src="images/arrow.png" alt="">
@@ -968,7 +968,7 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                         <div class="telephone">
                             <p>Звоните по телефону:</p>
-                            <span>8 (800) 333-02-74</span>
+                            <span>8 (928) 444-40-10</span>
                         </div>
                         <div class="ors">
                             или:  <img src="images/arrow.png" alt="">
@@ -1115,7 +1115,7 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                         <div class="telephone">
                             <p>Звоните по телефону:</p>
-                            <span>8 (800) 333-02-74</span>
+                            <span>8 (928) 444-40-10</span>
                         </div>
                         <div class="ors">
                             или:  <img src="images/arrow.png" alt="">
