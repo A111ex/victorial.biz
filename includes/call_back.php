@@ -16,8 +16,8 @@ if ($_POST) { // если передан массив POST
             Имя: $name<br />   
             Телефон: $phone<br/>
             Откуда: victorial.biz<br/>";    
-    /* $to = "masterv12@ya.ru"; */
-    $to = "vic@victorial.biz";
+    $to = "MasterV12@ya.ru";
+//    $to = "vic@victorial.biz";
 	$subject="=?utf-8?B?". base64_encode("$title"). "?=";
 	$header="From:  victorial.biz"; 
 	$header.="\nContent-type: text/html; charset=\"utf-8\"";
@@ -31,4 +31,3 @@ if ($_POST) { // если передан массив POST
 } else { // если массив POST не был передан
     echo 'GET LOST!'; // высылаем
 }
-?>
