@@ -55,7 +55,7 @@ $(function() {
                     if (data['error']) {
                         alert(data['error']);
                     } else {
-                        //yaCounter29653340.reachGoal(metrika);
+                        yaCounter29653340.reachGoal(metrika);
                         $.fancybox.close()
                         $('.succes_wrapper').animate({'opacity': 'show'})
                         $('input[type="text"]').removeClass('error')
