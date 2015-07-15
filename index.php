@@ -228,7 +228,7 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                     </div>
                 </div>
-<!--                 <nav class="main-menu">
+                 <nav class="main-menu">
                     <div class="wrapper">
                         <ul class="clearfix">
                             <li><a href="#slide-1"><span>В начало</span></a></li>
@@ -240,11 +240,11 @@ $COUNT = intval($arMassiv['COUNT']);
                                         для вас</span></a></li>
                             <li><a href="#slide-5"><span>наша<br/>
                                         практика</span></a></li>
-                            <!--<li><a href="#slide-6"><span>отзывы</span></a></li>
-                            <li><a href="#slide-7"><span>Как нас найти</span></a></li>
+                            <li><a href="#slide-6"><span>отзывы</span></a></li>
+<!--                            <li><a href="#slide-7"><span>Как нас найти</span></a></li>-->
                         </ul>
                     </div>
-                </nav> -->
+                </nav> 
             </header>
             <div class="slide-1 landingItem" id="slide-1">
                 <div class="wrapper">
