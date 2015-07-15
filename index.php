@@ -194,15 +194,15 @@ $COUNT = intval($arMassiv['COUNT']);
                 <div class="wrap-call">
                     <div class="wrap">
                         <div class="title">Заполните форму<br/>
-                            <span>для получения скидки:</span></div>
-                        <p class="t">Мы перезвоним Вам в рабочее 
+                            <span>и мы свяжемся с вами</span></div>
+<!--                         <p class="t">Мы перезвоним Вам в рабочее 
                             время в течение 30 минут
-                        </p>
+                        </p> -->
                         <form id="form9" method="post" action="" class="call_form" novalidate="novalidate"> 
                             <input type="hidden" name="title" value="шапка">
                             <input type="text" placeholder="Введите имя" name="name">
                             <input type="text" placeholder="Введите номер телефона" name="phone">
-                            <input type="submit" value="ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ" >
+                            <input type="submit" value="ОСТАВИТЬ ЗАЯВКУ" >
                             <p class="small">Данные никогда не будут 
                                 переданы третьим лицам!</p>
                         </form>
@@ -214,21 +214,21 @@ $COUNT = intval($arMassiv['COUNT']);
             <header>
                 <div class="top-head">
                     <div class="wrapper clearfix">
-                        <div class="logo fl-l">
+<!--                         <div class="logo fl-l">
                             <a href="#">
                                 <img src="images/logo.png" alt="">
                                 <p>Юридический центр семейного права<br/>
                                     г. Краснодар
                                 </p>
                             </a>
-                        </div>
+                        </div> -->
                         <div class="telephone fl-r">
                             <div class="tel">8 (928) 444-40-10</div>
-                            <a href="#inline1" class="call" onclick="metrika='call_head';">Записаться на встречу</a>
+                            <a href="#inline1" class="call" onclick="metrika='call_head';">Получить консультацию</a>
                         </div>
                     </div>
                 </div>
-                <nav class="main-menu">
+<!--                 <nav class="main-menu">
                     <div class="wrapper">
                         <ul class="clearfix">
                             <li><a href="#slide-1"><span>В начало</span></a></li>
@@ -240,11 +240,11 @@ $COUNT = intval($arMassiv['COUNT']);
                                         для вас</span></a></li>
                             <li><a href="#slide-5"><span>наша<br/>
                                         практика</span></a></li>
-                            <!--<li><a href="#slide-6"><span>отзывы</span></a></li>-->
+                            <!--<li><a href="#slide-6"><span>отзывы</span></a></li>
                             <li><a href="#slide-7"><span>Как нас найти</span></a></li>
                         </ul>
                     </div>
-                </nav>
+                </nav> -->
             </header>
             <div class="slide-1 landingItem" id="slide-1">
                 <div class="wrapper">
@@ -270,7 +270,7 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                         <!--<img src="images/wome1.png" alt="" class="women">-->
                         <div class="action fl-l">
-                            <div class="t">Акция!</div>
+                           <!--  <div class="t">Акция!</div>
                             <div class="con ccc" style="font-weight: bold;">КОНСУЛЬТАЦИЯ</div>
                             <div class="ccc" style="text-align: center ;">(по предварительной записи)</div>
                             <div id = 'week' class="date ccc" style="font-weight: bold;"></div >
@@ -279,20 +279,19 @@ $COUNT = intval($arMassiv['COUNT']);
                             <div class="t2 ccc" style="font-weight: bold;">ВЫГОДА - ЭКОНОМИЯ  500 рублей</div>
                             <div class="zapis ccc" style="">ЗАПИСЬ ОГРАНИЧЕНА<br>
                                 УЖЕ ЗАПИСАЛОСЬ <span class="chel"><?= $COUNT ?></span> ЧЕЛ<?= ($COUNT < 2 || $COUNT > 4) ? '' : '' ?>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="wrap-call fl-r">
                             <div class="wrap">
-                                <div class="title">Заполните форму<br/>
-                                    <span>для получения скидки:</span></div>
-                                <p class="t">Мы перезвоним Вам в рабочее 
-                                    время в течение 30 минут
-                                </p>
+                                <div class="title">Позвоните<br><span>прямо сейчас</span></div>
+                                <p class="t">по телефону</p>
+								<div class="title_2">8-928-444-40-10<br/>
+                                    <span>или закажите</span></div>
                                 <form id="form1" method="post" action="" class="call_form" novalidate="novalidate"> 
                                     <input type="hidden" name="title" value="Акция">
-                                    <input type="text" placeholder="Введите имя" name="name">
-                                    <input type="text" placeholder="Введите номер телефона" name="phone">
-                                    <input type="submit" class="wow pulse" data-wow-iteration="infinite" data-wow-delay="6000ms" data-wow-duration="2300ms" value="ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ" onclick="metrika='akziya';">
+                                   <!--  <input type="text" placeholder="Введите имя" name="name">
+                                    <input type="text" placeholder="Введите номер телефона" name="phone"> -->
+                                    <input type="submit" class="wow pulse" data-wow-iteration="infinite" data-wow-delay="6000ms" data-wow-duration="2300ms" value="ОБРАТНЫЙ ЗВОНОК" onclick="metrika='akziya';">
                                     <p class="small">Данные никогда не будут 
                                         переданы третьим лицам!</p>
                                 </form>
@@ -305,10 +304,10 @@ $COUNT = intval($arMassiv['COUNT']);
             <div class="slide-2 landingItem" >
                 <div class="wrapper">
                     <div class="sep2"></div>
-                    <div class="blocks-info clearfix landingItem" id="slide-2">
+                    <div class="blocks-info clearfix landingItem">
                         <div class="block fl-l vigodi">
                             <div class="t">
-                                <div class = "vigodi-title">ПОЧЕМУ С НАМИ ВЫГОДНО РАБОТАТЬ</div>
+                                <div class = "vigodi-title" id="slide-3">ПОЧЕМУ С НАМИ ВЫГОДНО РАБОТАТЬ</div>
                             </div>
                             <div class="info clearfix">
                                 <div class="row clearfix">
@@ -383,7 +382,7 @@ $COUNT = intval($arMassiv['COUNT']);
                     <div class="blocks-info clearfix landingItem" id="slide-2">
                         <div class="block fl-l">
                             <div class="t">
-                                <div><?php if($arResult['komp_title']): echo $arResult['komp_title']; else:?>чем для вас мы полезны:<?php endif;?></div>
+                                <div  id="slide-2"><?php if($arResult['komp_title']): echo $arResult['komp_title']; else:?>чем для вас мы полезны:<?php endif;?></div>
                             </div>
                             <div class="info clearfix">
                                 <?php if($polza): echo $polza; else:?>
@@ -501,43 +500,33 @@ $COUNT = intval($arMassiv['COUNT']);
                     </div>
                 </div>
             </div>
-            <div class="slide4 landingItem" id="slide-3">
+<!--             <div class="slide4 landingItem" id="slide-3">
                 <div class="wrapper">
                     <div class="title">
                         <span>Ваши выгоды при обращении к нам</span>
                     </div>
                     <div class="items">
-                        <?php if($vigodi): echo $vigodi; else:?>
+                        <?php /* if($vigodi): echo $vigodi; else: */?>
                         <div class="row clearfix">
                             <div class="bl fl-l">
-                                <!--<div class="t">защищенность </div>-->
                                 <p><span>Наша специализация в сфере семейного права</span> позволяет использовать накопленные знания и опыт по другим похожим делам при решении Вашей проблемы и гарантирует Вам уверенность в успехе.</p>
                             </div>
                             <div class="bl fl-r">
-                                <!--<div class="t">Свободное время для работы и личных дел</div>-->
                                 <p><span>Мы взыскиваем через суд Ваши расходы на юридическую помощь</span> с Вашего оппонента, что гарантирует Вам возврат затраченных денег и дает возможность полнее ощутить «вкус победы». </p>
                             </div>
                         </div>
                         <div class="row clearfix">
                             <div class="bl fl-l">
-                                <!--<div class="t">спокойствие и уверенность</div>-->
                                 <p><span>Мы еженедельно предоставляем отчет</span> о результатах работы, что дает Вам дополнительную уверенность в Вашем правильном выборе. </p>
                             </div>
                             <div class="bl fl-r">
-                                <!--<div class="t">Конфиденциальность </div>-->
                                 <p><span>Командная работа наших юристов и адвокатов</span> обеспечивает всесторонний анализ Вашего дела и невозможность упущения из вида важных «мелочей».</p>
                             </div>
                         </div>
-                        <?php endif;?>
-                       <!--  <div class="row clearfix">
-                            <div class="bl">
-                                <div class="t">Свободное время для работы и личных дел</div>
-                                <p>Пока Ваш бывший супруг спорит с командой Ваших юристов, Вы располагаете свободным временем для выполнения наиболее важных дел или общения с близкими.</p>
-                            </div>
-                        </div> -->
+                        <?php /* endif; */?>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="slide5 landingItem" id="slide-4">
                 <div class="wrapper">
