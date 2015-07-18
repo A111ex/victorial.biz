@@ -106,12 +106,12 @@ $COUNT = intval($arMassiv['COUNT']);
         <link href="css/res.css" rel="stylesheet">
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/jquery.fancybox.css" rel="stylesheet">
-        <!--<link href="css/nivo-slider.css" rel="stylesheet" type="text/css">-->
+        <link href="css/nivo-slider.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/animate.css">
         <link href="css/style.css" rel="stylesheet">
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-        <!--<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>-->
-        <!-- <script src="js/jquery.bxslider.min.js"></script> -->
+        <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+         <script src="js/jquery.bxslider.min.js"></script> 
         <script src="js/jquery.fancybox.pack.js"></script>
         <script src="js/jquery.maskedinput.min.js"></script>
         <script src="js/validate.js"></script>
@@ -119,7 +119,7 @@ $COUNT = intval($arMassiv['COUNT']);
         <script src="js/tween.js"></script>
         <script src="js/jquery.liLanding.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/week.js"></script>
+        <!--<script src="js/week.js"></script>-->
         <script src="js/wow.min.js"></script>
         <!--дата акции-->
 		<script type="text/javascript">
@@ -214,14 +214,14 @@ $COUNT = intval($arMassiv['COUNT']);
             <header>
                 <div class="top-head">
                     <div class="wrapper clearfix">
-<!--                         <div class="logo fl-l">
+                         <div class="logo fl-l">
                             <a href="#">
                                 <img src="images/logo.png" alt="">
-                                <p>Юридический центр семейного права<br/>
+                                <p>Юридическая компания<br/>
                                     г. Краснодар
                                 </p>
                             </a>
-                        </div> -->
+                        </div> 
                         <div class="telephone fl-r">
                             <div class="tel">8 (928) 444-40-10</div>
                             <a href="#inline1" class="call" onclick="metrika='call_head';">Получить консультацию</a>
@@ -232,7 +232,7 @@ $COUNT = intval($arMassiv['COUNT']);
                     <div class="wrapper">
                         <ul class="clearfix">
                             <li><a href="#slide-1"><span>В начало</span></a></li>
-                            <li><a href="#slide-2"><span>Услуги</span></a></li>
+                            <li><a href="#slide-3"><span>Услуги</span></a></li>
                             <li><a href="#slide-4"><span>Сотрудники</span></a></li>
                             <li><a href="#slide-5"><span>Отзывы</span></a></li>
                             <li><a href="#slide-7"><span>Контакты</span></a></li>
@@ -306,7 +306,7 @@ $COUNT = intval($arMassiv['COUNT']);
                     <div class="blocks-info clearfix landingItem">
                         <div class="block fl-l vigodi">
                             <div class="t">
-                                <div class = "vigodi-title" id="slide-3">ПОЧЕМУ С НАМИ ВЫГОДНО РАБОТАТЬ</div>
+                                <div class = "vigodi-title">ПОЧЕМУ С НАМИ ВЫГОДНО РАБОТАТЬ</div>
                             </div>
                             <div class="info clearfix">
                                 <div class="row clearfix">
@@ -377,8 +377,8 @@ $COUNT = intval($arMassiv['COUNT']);
                         наши услуги именно для вас!<br/>
                         мы знаем ответы на эти вопросы и готовы стать вашей поддержкой!
                     </div>-->
-                    <div class="sep2"></div>
-                    <div class="blocks-info clearfix landingItem" id="slide-2">
+                    <!--<div class="sep2"></div>-->
+<!--                    <div class="blocks-info clearfix landingItem" id="slide-2">
                         <div class="block fl-l">
                             <div class="t">
                                 <div  id="slide-2"><?php if($arResult['komp_title']): echo $arResult['komp_title']; else:?>чем для вас мы полезны:<?php endif;?></div>
@@ -460,16 +460,16 @@ $COUNT = intval($arMassiv['COUNT']);
                                 <?php endif;?>
                             </div>
                         </div>
-                    </div>
-                    <div class="sep3">
+                    </div>-->
+                    <!--<div class="sep3">-->
 
                     </div>
                 </div>
             </div>
             
-            <div class="slide5 landingItem" id="slide-4">
+            <div class="slide5 landingItem">
                 <div class="wrapper">
-                    <!--<div class="title h"><span>Специалисты для вас:</span></div>-->
+                    <div class="title h"><span>Наши клиенты доверяют нам</span></div>
                     <img src="images/img_0069_2015.jpg" alt="" class="public-photo">
                     <!--<div class="public-photo"></div>-->
                 </div>
@@ -479,7 +479,7 @@ $COUNT = intval($arMassiv['COUNT']);
             
             <div class="slide3 form-b">
                 <div class="wrapper clearfix">
-                    <img src="images/women1.png" class="women" alt="">
+                    <!--<img src="images/women1.png" class="women" alt="">-->
                     <div class="left-b fl-l">
                         <div class="t">
                             Нужна<br/>
@@ -538,9 +538,70 @@ $COUNT = intval($arMassiv['COUNT']);
                 </div>
             </div> -->
 
+
+            <div class="slide-2 landingItem" >
+                <div class="wrapper">
+                    <div class="sep2"></div>
+                    <div class="blocks-info clearfix landingItem">
+                        <div class="block fl-l vigodi">
+                            <div class="t">
+                                <div class = "vigodi-title" id="slide-3">УСЛУГИ</div>
+                            </div>
+                            <div class="info clearfix">
+                                <div class="row clearfix">
+                                    <div class="icon fl-l"><img src="images/problem-nasledstvo/11.png" alt=""></div>
+                                    <div class="desk"><b>Семейные дела при разводе супругов
+                                        <ul>
+                                            <li>расторжение брака</li>
+                                            <li>раздел имущества и кредитов супругов</li>
+                                            <li>определение места жительства ребенка после развода </li>
+                                            <li>устранение препятствий в общении с ребенком после развода</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="icon fl-l"><img src="images/problem-nasledstvo/11.png" alt=""></div>
+                                    <div class="desk"> <b>Наследственные дела</b>
+                                        <ul>
+                                            <li>восстановление пропущенного срока </li>
+                                            <li>принятие наследства через суд </li>
+                                            <li>подтверждение родства наследников </li>
+                                            <li>оспаривание завещания и договоров умершего </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="icon fl-l"><img src="images/problem-nasledstvo/11.png" alt=""></div>
+                                    <div class="desk"><b>Жилищные споры</b>
+                                        <ul>
+                                            <li>выписка и выселение</li>
+                                            <li>раздел дома, квартиры, выдел долей</li>
+                                            <li>определение порядка пользования </li>
+                                            <li>расторжение договоров через суд</li>
+                                            <li>взыскание денег с застройщиков</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="icon fl-l"><img src="images/problem-nasledstvo/11.png" alt=""></div>
+                                    <div class="desk"><b>Возврат денег и долгов</b>
+                                        <ul>
+                                            <li>по договорам </li>
+                                            <li>по распискам</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!--<div class="sep3">-->
+
+                </div>
+            </div>
             <div class="slide5 landingItem" id="slide-4">
                 <div class="wrapper">
-                    <div class="title h"><span>Специалисты для вас:</span></div>
+                    <div class="title h"><span>Сотрудники:</span></div>
                     <div class="specialist clearfix">
                         <div class="photo fl-l">
                             <img src="images/specialist.png" alt="">
@@ -581,7 +642,7 @@ $COUNT = intval($arMassiv['COUNT']);
             </div>
             <div class="slide6 form-b">
                 <div class="wrapper clearfix">
-                    <img src="images/ssssss.png" class="women" alt="">
+                    <!--<img src="images/ssssss.png" class="women" alt="">-->
                     <div class="left-b fl-l">
                         <div class="t">
                             не теряйте<br/>
@@ -616,7 +677,80 @@ $COUNT = intval($arMassiv['COUNT']);
                     </div>
                 </div>
             </div>
-            <div class="slide7 text-i landingItem" id="slide-5">
+                        <div class="slide16 review landingItem" id="slide-5">
+                <div class="wrapper">
+                    <div class="title"><span>отзывы</span></div>
+                    <div class="slider-review">
+                        <ul>
+                            <li>
+                                <div class="text-r">
+                                    <div class="row">
+                                        <div class="prob">
+                                            <img src="images/image-17-07-15-14_14-2_2015.jpg" alt="">
+<!--                                            <div class="t">Суть дела: </div>
+                                            <p>К специалисту компании обратилась гр-ка К.И. с просьбой уменьшить в интересах ребенка количество времени, проводимого с отцом. С отцом ребенка К.И. расторгла брак более года назад по причине злоупотребления мужем алкоголем, насилия в семье. Со времени развода бывший супруг видел 3-х летнего сына 2 раза. В настоящее же время подал в суд иск, в котором требовал установить порядок общения с ребенком, в том числе оставлять ребенка 1 раз каждую вторую неделю месяца на ночь у себя дома. </p>-->
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="resh">
+                                            <div class="t">Суть дела: </div>
+                                            <p>Мой родственник стал жертвой мошенников, которые вынудили его обманным путём подписать дарственную на квартиру. В этой квартире они успели прописаться, и мой близкий мог остаться на улице. Мы были шокированы и не знали что делать. Как раз в тот момент мне посоветовали обратиться к адвокату Епифановой Марине Валерьевне. В ее работе мне понравилась внимание к мелочам и деталям нашего дела, хорошее владение законами и убедительные выступления на судебных заседаниях. Адвокат  разъясняла мне все подробности дела простым языком и это вселяло в меня уверенность и ощущение защиты. Я знала, что не одна. В итоге мы отменили договор дарения через суд. Квартиру удалось вернуть моему родственнику, выписать и выселить мошенников. Я очень рада, что мы так вовремя успели обратиться к этому адвокату и не потеряли квартиру.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name">
+                                    <p>Стороженко Ольга</p>
+                                    <span>8-903-411-37-37</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-r">
+                                    <div class="row">
+                                        <div class="prob">
+                                             <img src="images/IMG-20150717-WA0006_2015.jpg" alt="">
+<!--                                            <div class="t">Суть дела: </div>
+                                            <p>К специалисту компании обратилась гр-ка К.И. с просьбой уменьшить в интересах ребенка количество времени, проводимого с отцом. С отцом ребенка К.И. расторгла брак более года назад по причине злоупотребления мужем алкоголем, насилия в семье. Со времени развода бывший супруг видел 3-х летнего сына 2 раза. В настоящее же время подал в суд иск, в котором требовал установить порядок общения с ребенком, в том числе оставлять ребенка 1 раз каждую вторую неделю месяца на ночь у себя дома. </p>-->
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="resh">
+                                            <div class="t">Суть дела:</div>
+                                            <p>Я пришла к юристу Епифановой Марине Валерьевне, когда уже была в отчаянии. Наша семья вложила деньги в строительство квартиры, а продавец отказался от ее продажи и отказался возвращать деньги. Сумма была немаленькая  и мы очень рассчитывали на нее, поскольку жили с двумя маленькими детьми. Процесс был долгий. Дело несколько раз отправляли на пересуд. Я была измотана. Когда я пришла к адвокату, она меня поддержала, помогла в суде и в итоге мы получили через суд положенные мне деньги. Совсем скоро наша семья сможет купить на них новое жилье!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name">
+                                    <p>Князева Людмила Валерьевна</p>
+                                    <span>8-918-315-10-15</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-r">
+                                    <div class="row">
+                                        <div class="prob">
+                                            <img src="images/20150717_080614_2015.jpg" alt="">
+<!--                                            <div class="t">Суть дела: </div>
+                                            <p>Наша бабушка хотела оформить квартиру. Человек она уже достаточно пожилой и мы торопились с оформлением. Именно тогда мы и обратились в компанию к адвокату Епифановой, чтобы наши документы были оформлены в короткий срок и правильно. Адвокат нам подробно рассказала о договоре, чем он отличается от наследства и мы окончательно убедились, что действуем правильно. Мы собрали документы, которые сказала нам собрать адвокат, после чего она оформила нам договор дарения квартиры. Наши документы с первого раза прошли в Юстиции, не было никаких проблем. Мы очень благодарны адвокату за помощь.</p>-->
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="resh">
+                                            <div class="t">Суть дела:</div>
+                                            <p>Наша бабушка хотела оформить квартиру. Человек она уже достаточно пожилой и мы торопились с оформлением. Именно тогда мы и обратились в компанию к адвокату Епифановой, чтобы наши документы были оформлены в короткий срок и правильно. Адвокат нам подробно рассказала о договоре, чем он отличается от наследства и мы окончательно убедились, что действуем правильно. Мы собрали документы, которые сказала нам собрать адвокат, после чего она оформила нам договор дарения квартиры. Наши документы с первого раза прошли в Юстиции, не было никаких проблем. Мы очень благодарны адвокату за помощь.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="name">
+                                    <p>Кошевец Наталья Ивановна</p>
+                                    <span>8-900-267-82-50</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+<!--          <div class="slide7 text-i landingItem" id="slide-5">
+                    
                 <div class="wrapper">
                     <div class="h"><span>наша практика</span></div>
                     <div class="sl">В целях конфиденциальности данные о клиентах намеренно изменены</div>
@@ -683,8 +817,8 @@ $COUNT = intval($arMassiv['COUNT']);
                     <?php endif;?>
                     <div class="sep"></div>
                 </div>
-            </div>
-            <div class="slide8 form-b">
+            </div>-->
+<!--            <div class="slide8 form-b">
                 <div class="wrapper clearfix">
                     <img <?php if ($arResult['form_img']): echo $arResult['form_img']; else: ?>src="images/form-slide1.png" <?php endif;?>class="women" alt="">
                     <div class="left-b fl-l">
@@ -720,8 +854,8 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="slide9 text-i">
+            </div>-->
+<!--            <div class="slide9 text-i">
                 <div class="wrapper">
                     <?php if($practic_block2): echo $practic_block2; else:?>
                     <div class="title h2"><mark>рАЗДЕЛ ИМУЩЕСТВА СУПРУГОВ. рАЗДЕЛ ДОЛГОВ, КРЕДИТОВ.</mark></div>
@@ -786,8 +920,8 @@ $COUNT = intval($arMassiv['COUNT']);
                     <?php endif;?>
                     <div class="sep"></div>
                 </div>
-            </div>
-            <div <?php if ($arResult['display_slide_10'] == "none"): ?> style="display: none;"<?php endif;?>class="slide10 form-b">
+            </div>-->
+<!--            <div <?php if ($arResult['display_slide_10'] == "none"): ?> style="display: none;"<?php endif;?>class="slide10 form-b">
                 <div class="wrapper clearfix">
                     <img src="images/dom.png" class="women" alt="">
                     <div class="left-b fl-l">
@@ -823,8 +957,8 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                     </div>
                 </div>
-            </div>
-            <div <?php if ($arResult['display_slide_11'] == "none"): ?> style="display: none;"<?php endif;?>class="slide11 text-i">
+            </div>-->
+<!--            <div <?php if ($arResult['display_slide_11'] == "none"): ?> style="display: none;"<?php endif;?>class="slide11 text-i">
                 <div class="wrapper">
                     <?php if($practic_block3): echo $practic_block3; else:?>
                     <div class="title h2"><mark>определение места жительства ребенка</mark></div>
@@ -853,8 +987,8 @@ $COUNT = intval($arMassiv['COUNT']);
                     <?php endif;?>
                     <div class="sep"></div>
                 </div>
-            </div>
-            <div <?php if ($arResult['display_slide_12'] == "none"): ?> style="display: none;"<?php endif;?>class="slide12 text-i">
+            </div>-->
+<!--            <div <?php if ($arResult['display_slide_12'] == "none"): ?> style="display: none;"<?php endif;?>class="slide12 text-i">
                 <div class="wrapper">
                     <?php if($practic_block4): echo $practic_block4; else:?>
                     <div class="title h2"><mark>установление графика общения с ребенком</mark></div>
@@ -883,8 +1017,8 @@ $COUNT = intval($arMassiv['COUNT']);
                     <?php endif;?>
                     <div class="sep"></div>
                 </div>
-            </div>
-            <div <?php if ($arResult['display_slide_13'] == "none"): ?> style="display: none;"<?php endif;?> class="slide13 form-b">
+            </div>-->
+<!--            <div <?php if ($arResult['display_slide_13'] == "none"): ?> style="display: none;"<?php endif;?> class="slide13 form-b">
                 <div class="wrapper clearfix">
                     <img <?php if ($arResult['form_img2']): echo $arResult['form_img2']; else: ?>src="images/mom.png"<?php endif;?> class="women" alt="">
                     <div class="left-b fl-l">
@@ -920,8 +1054,8 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                     </div>
                 </div>
-            </div>
-            <div <?php if ($arResult['display_slide_14'] == "none"): ?> style="display: none;"<?php endif;?> class="slide14 text-i">
+            </div>-->
+<!--            <div <?php if ($arResult['display_slide_14'] == "none"): ?> style="display: none;"<?php endif;?> class="slide14 text-i">
                 <div class="wrapper">
                     <?php if($practic_block5): echo $practic_block5; else:?>
                     <div class="title h2"><mark>установление отцовства</mark></div>
@@ -952,7 +1086,7 @@ $COUNT = intval($arMassiv['COUNT']);
                     <?php endif; ?>
                     <div class="sep"></div>
                 </div>
-            </div>
+            </div>-->
             <div class="slide15 form-b">
                 <div class="wrapper clearfix">
                     <img src="images/mens.png" class="women" alt="">

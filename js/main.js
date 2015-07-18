@@ -10,18 +10,18 @@ $(function() {
 	
     //timer();
 	
-    // $('.slider-review ul').bxSlider({
-        // mode: 'fade'
-    // });
+     $('.slider-review ul').bxSlider({
+         mode: 'fade'
+     });
 	
-    // $('.slider-video ul').bxSlider({
-        // slideWidth: 348,
-        // minSlides: 2,
-        // maxSlides: 2,
-        // moveSlides: 1,
-        // slideMargin: 35,
-        // pager: false
-    // });
+     $('.slider-video ul').bxSlider({
+         slideWidth: 348,
+         minSlides: 2,
+         maxSlides: 2,
+         moveSlides: 1,
+         slideMargin: 35,
+         pager: false
+     });
 	
     $('header .logo a').on('click', function() {
         var target_offset = $('.slide-1').offset();
