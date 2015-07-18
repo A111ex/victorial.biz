@@ -466,6 +466,17 @@ $COUNT = intval($arMassiv['COUNT']);
                     </div>
                 </div>
             </div>
+            
+            <div class="slide5 landingItem" id="slide-4">
+                <div class="wrapper">
+                    <!--<div class="title h"><span>Специалисты для вас:</span></div>-->
+                    <img src="images/img_0069_2015.jpg" alt="" class="public-photo">
+                    <!--<div class="public-photo"></div>-->
+                </div>
+            </div>
+            
+            
+            
             <div class="slide3 form-b">
                 <div class="wrapper clearfix">
                     <img src="images/women1.png" class="women" alt="">

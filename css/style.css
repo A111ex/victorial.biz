@@ -907,7 +907,7 @@ a.call
 .slide5
 {
     background: url('../images/slide5-bg.jpg') no-repeat center -14px #eae6dd;
-    padding: 71px 0 80px 0;
+    padding: 45px 0 20px;
 }
 .slide5 .specialist
 {
@@ -1606,4 +1606,9 @@ input.error
     text-decoration: none;
     text-transform: uppercase;
     width: 238px;
+}
+
+.public-photo{
+    background: url('../images/img_0069.jpg') no-repeat;
+    width: 100%;
 }
