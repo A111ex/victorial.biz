@@ -232,15 +232,10 @@ $COUNT = intval($arMassiv['COUNT']);
                     <div class="wrapper">
                         <ul class="clearfix">
                             <li><a href="#slide-1"><span>В начало</span></a></li>
-                            <li><a href="#slide-2"><span>Чем для вас<br/>
-                                        мы полезны</span></a></li>
-                            <li><a href="#slide-3"><span>Ваши<br/>
-                                        выгоды</span></a></li>
-                            <li><a href="#slide-4"><span>специалисты<br/>
-                                        для вас</span></a></li>
-                            <li><a href="#slide-5"><span>наша<br/>
-                                        практика</span></a></li>
-                            <li><a href="#slide-6"><span>отзывы</span></a></li>
+                            <li><a href="#slide-2"><span>Услуги</span></a></li>
+                            <li><a href="#slide-4"><span>Сотрудники</span></a></li>
+                            <li><a href="#slide-5"><span>Отзывы</span></a></li>
+                            <li><a href="#slide-7"><span>Контакты</span></a></li>
 <!--                            <li><a href="#slide-7"><span>Как нас найти</span></a></li>-->
                         </ul>
                     </div>
@@ -249,7 +244,7 @@ $COUNT = intval($arMassiv['COUNT']);
             <div class="slide-1 landingItem" id="slide-1">
                 <div class="wrapper">
                     <?php if(is_array($arResult)): echo $arResult['h1']; else:?>
-                    <h1>адвокаты и юристы<br>по семейным спорам</h1>
+                    <h1>СУДЕБНЫЕ ЮРИСТЫ</h1>
                     <?php endif;?>
                     <div class="block-form-main clearfix">
                         <div class="women">
@@ -270,8 +265,11 @@ $COUNT = intval($arMassiv['COUNT']);
                         </div>
                         <!--<img src="images/wome1.png" alt="" class="women">-->
                         <div class="action fl-l">
-                           <!--  <div class="t">Акция!</div>
-                            <div class="con ccc" style="font-weight: bold;">КОНСУЛЬТАЦИЯ</div>
+                            <p class="title-new">консультируем</p>
+                            <p class="title-new">подаем в суд </p>
+                            <p class="title-new">обжалуем решения  </p>
+<!--                            <div class="t">Акция!</div>-->
+<!--                            <div class="con ccc" style="font-weight: bold;">КОНСУЛЬТАЦИЯ</div>
                             <div class="ccc" style="text-align: center ;">(по предварительной записи)</div>
                             <div id = 'week' class="date ccc" style="font-weight: bold;"></div >
                             <div class="ccc" style="font-weight: bold;">Стоимость консультации со скидкой: 500 рублей </div>
@@ -279,7 +277,7 @@ $COUNT = intval($arMassiv['COUNT']);
                             <div class="t2 ccc" style="font-weight: bold;">ВЫГОДА - ЭКОНОМИЯ  500 рублей</div>
                             <div class="zapis ccc" style="">ЗАПИСЬ ОГРАНИЧЕНА<br>
                                 УЖЕ ЗАПИСАЛОСЬ <span class="chel"><?= $COUNT ?></span> ЧЕЛ<?= ($COUNT < 2 || $COUNT > 4) ? '' : '' ?>
-                            </div> -->
+                            </div>-->
                         </div>
                         <div class="wrap-call fl-r">
                             <div class="wrap">
@@ -288,10 +286,11 @@ $COUNT = intval($arMassiv['COUNT']);
 								<div class="title_2">8-928-444-40-10<br/>
                                     <span>или закажите</span></div>
                                 <form id="form1" method="post" action="" class="call_form" novalidate="novalidate"> 
-                                    <input type="hidden" name="title" value="Акция">
-                                   <!--  <input type="text" placeholder="Введите имя" name="name">
-                                    <input type="text" placeholder="Введите номер телефона" name="phone"> -->
-                                    <input type="submit" class="wow pulse" data-wow-iteration="infinite" data-wow-delay="6000ms" data-wow-duration="2300ms" value="ОБРАТНЫЙ ЗВОНОК" onclick="metrika='akziya';">
+                                    <!--<input type="hidden" name="title" value="Акция">
+                                     <input type="text" placeholder="Введите имя" name="name">
+                                    <input type="text" placeholder="Введите номер телефона" name="phone">
+                                    <input type="submit" class="wow pulse" data-wow-iteration="infinite" data-wow-delay="6000ms" data-wow-duration="2300ms" value="ОБРАТНЫЙ ЗВОНОК" onclick="metrika='akziya';"> -->
+                                    <a href="#inline1" class="call" onclick="metrika='spec';">обратный звонок</a>
                                     <p class="small">Данные никогда не будут 
                                         переданы третьим лицам!</p>
                                 </form>

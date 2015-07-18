@@ -176,9 +176,9 @@ a.call
 .slide-1 .block-form-main .action
 {
     height: 370px;
-    background: url('../images/bg-action.png') repeat;
+    /*background: url('../images/bg-action.png') repeat;*/
     margin: 24px 0 0 40px;
-    padding: 0px 0 9px 196px;
+    padding: 0px 0 9px 176px;
     width: 412px;
     position: relative;
 }
@@ -208,9 +208,9 @@ a.call
     right: -13px;
     top: 134px;
     display: block;
-    background: url('../images/arrow-action.png') no-repeat;
+    background: url('../images/arrow-action.png') no-repeat scroll 0 45px;
     width: 103px;
-    height: 48px;
+    height: 150px;
     z-index: 111;
 }
 .block-form-main .action .t
@@ -225,7 +225,7 @@ a.call
 .block-form-main .action p
 {
     font-family: 'Scada-Bold';
-    font-size: 20px;
+    font-size: 34px;
     text-transform: uppercase;
 }
 .block-form-main .action p span
@@ -401,10 +401,10 @@ a.call
 .block-form-main .wrap-call .wrap .title
 {
     font-size: 34px;
-	text-align: center;
-	letter-spacing: 2px;
-	font-weight: 100;
-	height: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 100;
+    height: 60px;
 }
 .title_2
 {
@@ -1582,4 +1582,28 @@ input.error
 {
     box-shadow: inset 0 0 0 2px red;
 }
+.title-new{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 100;
+    height: 60px;
+}
 
+#form1.call_form a.call{
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #fc9400 0%, #fb2500 100%) repeat scroll 0 0;
+    border-bottom: 2px solid #d92000;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Arial";
+    font-size: 18px;
+    font-weight: bold;
+    height: 42px;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+    margin: 0 0 0 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 238px;
+}
