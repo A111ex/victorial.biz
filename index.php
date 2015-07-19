@@ -32,8 +32,9 @@ if (    $title == 'advokatPoSemeynimDelam1' || $title == 'advokatPoSemeynimDelam
     include 'includes/title/semeyniyAdvokat.php';
 }
 
-if ($title == 'imustchestvoPriRazvode1' || $title == 'imustchestvoPriRazvode2') {
-    include 'includes/title/imustchestvoPriRazvode.php';
+if ($title == 'imustchestvoPriRazvode1' || $title == 'imustchestvoPriRazvode2' ||
+    $title == 'razdel-imushchestva-suprugov1'    ) {
+    include 'includes/title/razdelImushchestvaSuprugov.php';
 }
 
 if (    $title == 'neUplataAlimentov1'  || $title == 'neUplataAlimentov2'   || 
@@ -55,7 +56,9 @@ if (    $title == 'razvodSuprugov1'         ||  $title == 'razvodSuprugov2'     
         $title == 'razvodSud1'              ||  $title == 'razvodSud2'              ||
         $title == 'razvodSZhenoy1'          ||  $title == 'razvodSZhenoy2'          ||
         $title == 'kakRazvestisSZhenoy1'    ||  $title == 'kakRazvestisSZhenoy2'    ||
-        $title == 'kakRazvestisSMuzhem1'    ||  $title == 'kakRazvestisSMuzhem2'    ) {
+        $title == 'kakRazvestisSMuzhem1'    ||  $title == 'kakRazvestisSMuzhem2'    ||
+        $title == 'yuridicheskaya-pomoshch-pri-razvode1'
+        ) {
     include 'includes/title/razvodSuprugov.php';
 }
 
@@ -80,13 +83,26 @@ if (    $title == 'osporitZaveshanie1'                                          
     include 'includes/title/osporitZaveshanie.php';
 }
 
-if ($title == 'moralniyVred1'                   || $title == 'moralniyVred2' ||
+if ($title == 'moralniyVred1'                    ||
      $title == 'moralnayaKompensaciya1'         || $title == 'moralnayaKompensaciya2' ||
      $title == 'kompensaciyaMoralnogoVreda1'    || $title == 'kompensaciyaMoralnogoVreda2' ||
      $title == 'vozmeshchenieMoralnogoVreda1'   || $title == 'vozmeshchenieMoralnogoVreda2' ||
      $title == 'vzyskanieMoralnogoVreda1'       || $title == 'vzyskanieMoralnogoVreda2' ||   
      $title == 'moralnyjUshcherb1'              || $title == 'moralnyjUshcherb2') {
     include 'includes/title/moralniyVred.php';
+}
+
+if ($title == 'podat-v-sud1'                   || $title == 'podat-isk1'                ||
+     $title == 'kak-obratitsya-v-sud1'         || $title == 'iskovoe-zayavlenie1'       ||
+     $title == 'isk-v-sud1'                    || $title == 'iskovoe-v-sud1'            ||   
+     $title == 'zayavlenie-o-vzyskanii1'       || $title == 'vstrechnyj-isk1'           ||
+     $title == 'hodatajstvo1'                  || $title == 'rassmotrenie-dela-v-sude1' ||   
+     $title == 'grazhdanskij-sud1'              ) {
+    include 'includes/title/podatVsud.php';
+}
+
+if ($title == 'obzhalovanie-nezakonnyh-reshenij-suda') {
+    include 'includes/title/obzhalovanieNezakonnyhReshenijSuda.php';
 }
 //exit();
 global $fileMassivPath, $minCnt, $maxCnt;
