@@ -97,7 +97,7 @@ if ($title == 'podat-v-sud1'                   || $title == 'podat-isk1'        
      $title == 'isk-v-sud1'                    || $title == 'iskovoe-v-sud1'            ||   
      $title == 'zayavlenie-o-vzyskanii1'       || $title == 'vstrechnyj-isk1'           ||
      $title == 'hodatajstvo1'                  || $title == 'rassmotrenie-dela-v-sude1' ||   
-     $title == 'grazhdanskij-sud1'              ) {
+     $title == 'grazhdanskij-sud1'             || $title == 'vozrazhenie-na-isk1') {
     include 'includes/title/podatVsud.php';
 }
 
